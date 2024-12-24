@@ -12,6 +12,7 @@ talks/**/*.css
 talks/**/*.scss
 *.pyc
 *.pyi
+*.cfg
 posts/**/*.svg
 posts/**/*.png
 talks/**/*.svg
@@ -33,4 +34,7 @@ _freeze/*
 
 .ipynb_checkpoints
 .jupyter_cache
+lib/
+etc/
+bin/
 ignore
