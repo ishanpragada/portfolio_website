@@ -1,0 +1,150 @@
+---
+date: today
+modified: last-modified
+author: "Ishan Buyyanapragada"
+site-url: "https://ishankr.com"
+appendix-site-as: false
+repo-actions: false
+body-footer: false
+code-tools: false
+citation: false
+toc: false
+reference-location: section
+reference-links: true
+sidebar: false
+comments: false
+format:
+  html:
+    css:
+      - css/profile.css
+    grid:
+      body-width: 900px
+  gfm:
+    output-file: "README.md"
+format-links: false
+---
+
+::: {style="font-size:1.0em; text-align: center;"}
+
+[[![](./assets/avatar.jpg)]{.profile-avatar style="width: 100%; border: 0px solid var(--bg-border)!important;"}](https://www.instagram.com/ishanshankr/)
+
+[[👋  hi, i'm ishan!]{.dim-text}]{style="font-size: 1.5rem; color: var(--dim-text)!important; padding-bottom: 0pt; font-family: 'IBM Plex Sans Condensed'; font-weight: 400;"}
+
+::: {style="display: flex; flex-direction: row; align-items: center; text-align: center!important; justify-content: center; background-color: var(--link-bg-color);"}
+
+[[{{< iconify line-md home inline=true >}}]{.icon .dim-text style="font-size: 1.5rem; padding-right:0pt;"}](https://ishankr.com)
+[[{{< iconify line-md github-loop inline=true >}}]{.icon .dim-text style="font-size: 1.5rem; padding-right:0pt;"}](https://github.com/ishanpragada/)
+[[{{< iconify lineicons linkedin inline=true >}}]{.icon .dim-text style="font-size: 1.5rem; padding-right:0pt;"}](https://www.linkedin.com/in/ishan-buyyanapragada-787533258/)
+[[{{< iconify line-md email inline=true >}}]{.icon .dim-text style="font-size: 1.5rem; padding-right:0pt;"}](mailto:///ibuyy@illinois.edu)
+[[{{< iconify line-md spotify inline=true >}}]{.icon .dim-text style="font-size: 1.5rem; padding-right:0pt;"}](https://open.spotify.com/user/saforem2)
+
+:::
+
+:::
+
+::: {.panel-tabset style="justify-content: center;"}
+
+### 🧑🏻‍💻 about {#sec-about}
+
+{{< include about/_about.qmd >}}
+
+::: {.callout-tip icon=false aria-title="Gallery" title='[📷 Gallery]{.dim-text}' collapse="true" style="width:100%; background-color:rgba(131,131,131,0.05)!important; border: 1px solid rgba(131,131,131,0.0); opacity:100%;"}
+
+::: {.gallery} 
+![](assets/isu_symp.jpeg){.pic}
+![](assets/bance.jpg){.pic}
+
+<style>
+.gallery {
+  padding: 1%;
+  line-height: 0;
+  width: 100%;
+  margin: auto;
+  -webkit-column-count: 3;
+  -webkit-column-gap: 0px;
+  -moz-column-count: 3;
+  -moz-column-gap: 0px;
+  column-count: 4;
+  column-gap: 4px;
+}
+
+.gallery img:hover {
+  transition: transform 0.2s ease, filter 0.2s ease;
+  transform: scale(1.03); /* Makes the image lift out by zooming it */
+  filter: brightness(1.1); /* Optional: makes the image slightly brighter */
+}
+
+.pic {
+  /* Just in case there are inline attributes */
+  width: 100% !important;
+  height: auto !important;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  border-radius: 3%;
+}
+
+@media (max-width: 1200px) {
+  .gallery {
+    -moz-column-count: 4;
+    -webkit-column-count: 4;
+    column-count: 4;
+  }
+}
+
+@media (max-width: 1000px) {
+  .gallery {
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+    column-count: 3;
+  }
+}
+
+@media (max-width: 800px) {
+  .gallery {
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-count: 2;
+  }
+}
+
+@media (max-width: 400px) {
+  .gallery {
+    -moz-column-count: 1;
+    -webkit-column-count: 1;
+    column-count: 1;
+  }
+}
+
+</style>
+:::
+
+::: {style="text-align:center;"}
+[© Copyright [Ishan Buyyanapragada](https://ishankr.com)]{.dim-text}
+:::
+:::
+
+### 📝 work
+
+::: {.callout-note collapse=true icon=false title="" style="background-color: oklch(from var(#4582ec) calc(l * 1.15) c h / 0.1);"}
+[You can find a full list of my publications on my [Google Scholar](https://scholar.google.com/citations?user=vV_1zDwAAAAJ&hl=en)]{style="color:#4582ec;"}
+:::
+
+{{< include about/_work.qmd >}}
+
+
+### 📦 projects
+
+::: {style="a:hover {text-decoration: none!important; color: none!important;}"}
+{{< include about/_projects.qmd >}}
+:::
+
+
+### 🪖 experience
+
+{{< include about/_experience.qmd >}}
+
+### 🎶 music
+
+{{< include about/_music.qmd >}}
+
+:::
