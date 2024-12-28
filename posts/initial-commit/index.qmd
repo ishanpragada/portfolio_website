@@ -5,16 +5,14 @@ date: 2024-12-23
 modified: 2024-12-23
 lightbox: auto
 tbl-cap-location: bottom
-# citation:
-#    author: Ishan Buyyanapragada
-#    type: webpage
-#    title: "Initial Commit"
-#    url: https://ishankr.com/posts/initial-commit
 citation: false
 open-graph:
   title: "Initial Commit"
   description: "my first blog where i try to figure everything out without freaking out 🤪"
   image: ""
+categories:
+  - reference
+  - coding
 ---
 
 ## Disclaimer: I'm new to this.
@@ -26,7 +24,7 @@ Winter break started recently and I decided to revamp my website.[^reason] As I 
 
 ## Why Quarto?
 
-Quarto is pretty similar to [R Markdown](https://rmarkdown.rstudio.com/), but it's got [elegant cross-referencing](https://quarto.org/docs/authoring/cross-references.html), [multi-language support](https://quarto.org/docs/reference/cells/), and [multi-column integration](https://quarto.org/docs/authoring/figures.html#complex-layouts).[^not-important]
+Quarto is pretty similar to [R Markdown](https://rmarkdown.rstudio.com/), but it's got [elegant cross-referencing](https://quarto.org/docs/authoring/cross-references.html), [multi-language support](https://quarto.org/docs/reference/cells/), and [multiple column integration](https://quarto.org/docs/authoring/figures.html#complex-layouts).[^not-important]
 
 [^not-important]: Okay the last one is not as important, but it was such a pain in Markdown.
 

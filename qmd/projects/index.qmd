@@ -18,6 +18,7 @@ toc: false
 #   # contents: "../talks/talks.yml"
 # metadata_files:
 #   - ./_metadata.yml
+citation: false
 format: html
 ---
 

@@ -13,8 +13,7 @@ website:
   #   palette: dark
 
   # gtag: G-E72QE53WSY
-  repo-url: https://github.com/ishanpragada/personal_site
-  # issue-url: https://github.com/saforem2/personal_size/issues/new/choose
+  repo-url: https://github.com/ishanpragada/portfolio_website
   repo-actions: [source, edit, issue]
   # repo-actions: [source]
   # search:
@@ -114,7 +113,7 @@ website:
       #   text: "[{{< iconify line-md twitter >}}]{style='font-size: 1.15em;'}"
       #   aria-label: Twitter
       # text: "[{{< iconify line-md github-loop >}}]{style='font-size: 1.15em;'}"
-      - href: https://github.com/ishanpragada/personal_site
+      - href: https://github.com/ishanpragada/portfolio_website
         text: "[{{< iconify line-md github-loop >}}]{.icon .dim-text style='font-size: 1.25rem;'}"
         aria-label: GitHub
         # icon: github

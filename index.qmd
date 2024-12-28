@@ -51,12 +51,21 @@ format-links: false
 ::: {.callout-tip icon=false aria-title="Gallery" title='[📷 Gallery]{.dim-text}' collapse="true" style="width:100%; background-color:rgba(131,131,131,0.05)!important; border: 1px solid rgba(131,131,131,0.0); opacity:100%;"}
 
 ::: {.gallery} 
-![](assets/isu_symp.jpeg){.pic}
-![](assets/bance.jpg){.pic}
+
+![](assets/beach.JPG)
+![](assets/suit.png)
+![](assets/park.png)
+![](assets/three.JPG)
+![](assets/santa%20(1).jpg)
+![](assets/dorm%20(1).jpg)
+![](assets/grad%20(1).jpg)
+![](assets/arang.jpeg)
+
+
+
 
 <style>
 .gallery {
-  padding: 1%;
   line-height: 0;
   width: 100%;
   margin: auto;
@@ -68,10 +77,10 @@ format-links: false
   column-gap: 4px;
 }
 
-.gallery img:hover {
-  transition: transform 0.2s ease, filter 0.2s ease;
-  transform: scale(1.03); /* Makes the image lift out by zooming it */
-  filter: brightness(1.1); /* Optional: makes the image slightly brighter */
+.gallery img {
+  border-radius:3%;
+  margin-top: 2px;
+  margin-bottom: 2px;
 }
 
 .pic {
@@ -122,15 +131,6 @@ format-links: false
 [© Copyright [Ishan Buyyanapragada](https://ishankr.com)]{.dim-text}
 :::
 :::
-
-### 📝 work
-
-::: {.callout-note collapse=true icon=false title="" style="background-color: oklch(from var(#4582ec) calc(l * 1.15) c h / 0.1);"}
-[You can find a full list of my publications on my [Google Scholar](https://scholar.google.com/citations?user=vV_1zDwAAAAJ&hl=en)]{style="color:#4582ec;"}
-:::
-
-{{< include about/_work.qmd >}}
-
 
 ### 📦 projects
 

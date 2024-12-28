@@ -337,7 +337,7 @@ window.Quarto = {
   <li><a href="#hot-off-the-press" id="toc-hot-off-the-press" class="nav-link active" data-scroll-target="#hot-off-the-press">🔥 Hot off the Press 📰</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/ishanpragada/personal_site/blob/main/posts/index.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/ishanpragada/personal_site/edit/main/posts/index.qmd" class="toc-action"><i class="bi empty"></i>Edit this page</a></li><li><a href="https://github.com/ishanpragada/personal_site/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y29kaW5n">coding <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cmVmZXJlbmNl">reference <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 <!-- Google Tag Manager (noscript) -->
@@ -419,7 +419,7 @@ Categories
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-listing-date-sort="1734933600000" data-listing-file-modified-sort="1734996413782" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="94" data-listing-title-sort="🎬 Initial Commit" data-listing-filename-sort="index.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+<tr data-index="0" data-categories="cmVmZXJlbmNlJTJDY29kaW5n" data-listing-date-sort="1734933600000" data-listing-file-modified-sort="1735341814732" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="94" data-listing-title-sort="🎬 Initial Commit" data-listing-filename-sort="index.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <a href="../posts/initial-commit/index.html" class="title listing-title">🎬 Initial Commit</a>
@@ -428,7 +428,7 @@ Categories
 <span class="listing-date">2024-12-23</span>
 </td>
 <td>
-<span class="listing-categories">&nbsp;</span>
+<span class="listing-categories">reference, coding</span>
 </td>
 </tr>
 </tbody>
@@ -1072,54 +1072,35 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
 <div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1"></a><span class="co">---</span></span>
 <span id="cb1-2"><a href="#cb1-2"></a><span class="an">title:</span><span class="co"> "📬 Posts"</span></span>
-<span id="cb1-3"><a href="#cb1-3"></a><span class="co"># toc: false</span></span>
-<span id="cb1-4"><a href="#cb1-4"></a><span class="co"># page-layout: article</span></span>
-<span id="cb1-5"><a href="#cb1-5"></a><span class="co"># format: html</span></span>
-<span id="cb1-6"><a href="#cb1-6"></a><span class="co"># toc: false</span></span>
-<span id="cb1-7"><a href="#cb1-7"></a><span class="an">editor:</span></span>
-<span id="cb1-8"><a href="#cb1-8"></a><span class="co">   render-on-save: true</span></span>
-<span id="cb1-9"><a href="#cb1-9"></a><span class="co"># page-layout: full</span></span>
-<span id="cb1-10"><a href="#cb1-10"></a><span class="co"># metadata_files:</span></span>
-<span id="cb1-11"><a href="#cb1-11"></a><span class="co">#   - ./posts.yml</span></span>
-<span id="cb1-12"><a href="#cb1-12"></a><span class="co"># listing: posts.yml</span></span>
-<span id="cb1-13"><a href="#cb1-13"></a><span class="co"># listing:</span></span>
-<span id="cb1-14"><a href="#cb1-14"></a><span class="co">#   sort: "date desc"</span></span>
-<span id="cb1-15"><a href="#cb1-15"></a><span class="co">#   id: listing-posts</span></span>
-<span id="cb1-16"><a href="#cb1-16"></a><span class="co">#   filter-ui: false</span></span>
-<span id="cb1-17"><a href="#cb1-17"></a><span class="co">#   type: table</span></span>
-<span id="cb1-18"><a href="#cb1-18"></a><span class="co">#   contents: "./posts.yml"</span></span>
-<span id="cb1-19"><a href="#cb1-19"></a><span class="co"># format:</span></span>
-<span id="cb1-20"><a href="#cb1-20"></a><span class="co">#   html:</span></span>
-<span id="cb1-21"><a href="#cb1-21"></a><span class="co">#     page-layout: full</span></span>
-<span id="cb1-22"><a href="#cb1-22"></a><span class="an">listing:</span></span>
-<span id="cb1-23"><a href="#cb1-23"></a><span class="co">  table-striped: true</span></span>
-<span id="cb1-24"><a href="#cb1-24"></a><span class="co">  id: listing-posts</span></span>
-<span id="cb1-25"><a href="#cb1-25"></a><span class="co">  sort: "date desc"</span></span>
-<span id="cb1-26"><a href="#cb1-26"></a><span class="co">  filter-ui: true</span></span>
-<span id="cb1-27"><a href="#cb1-27"></a><span class="co">  sort-ui: true</span></span>
-<span id="cb1-28"><a href="#cb1-28"></a><span class="co">  type: table</span></span>
-<span id="cb1-29"><a href="#cb1-29"></a><span class="co">  table-hover: true</span></span>
-<span id="cb1-30"><a href="#cb1-30"></a><span class="co">  fields: [title, date, categories]</span></span>
-<span id="cb1-31"><a href="#cb1-31"></a><span class="co">  categories: true</span></span>
-<span id="cb1-32"><a href="#cb1-32"></a><span class="co">  date-format: iso</span></span>
-<span id="cb1-33"><a href="#cb1-33"></a><span class="co">  field-display-names:</span></span>
-<span id="cb1-34"><a href="#cb1-34"></a><span class="co">      date: "&lt;b&gt;When&lt;/b&gt;"</span></span>
-<span id="cb1-35"><a href="#cb1-35"></a><span class="co">      title: "&lt;b&gt;What&lt;/b&gt;"</span></span>
-<span id="cb1-36"><a href="#cb1-36"></a><span class="co">      # categories: ""</span></span>
-<span id="cb1-37"><a href="#cb1-37"></a><span class="co">      # categories: "&amp;nbsp;"</span></span>
-<span id="cb1-38"><a href="#cb1-38"></a><span class="co">  # field-display-names: false</span></span>
-<span id="cb1-39"><a href="#cb1-39"></a><span class="co">  contents:</span></span>
-<span id="cb1-40"><a href="#cb1-40"></a><span class="co">    - "../posts/initial-commit/index.qmd"</span></span>
-<span id="cb1-41"><a href="#cb1-41"></a><span class="co">---</span></span>
-<span id="cb1-42"><a href="#cb1-42"></a></span>
-<span id="cb1-43"><a href="#cb1-43"></a><span class="fu">## 🔥 Hot off the Press 📰</span></span>
-<span id="cb1-44"><a href="#cb1-44"></a></span>
-<span id="cb1-45"><a href="#cb1-45"></a>:::: {.feature}</span>
-<span id="cb1-46"><a href="#cb1-46"></a></span>
-<span id="cb1-47"><a href="#cb1-47"></a>::: {#listing-posts}</span>
-<span id="cb1-48"><a href="#cb1-48"></a>:::</span>
-<span id="cb1-49"><a href="#cb1-49"></a></span>
-<span id="cb1-50"><a href="#cb1-50"></a>::::</span></code><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></pre></div>
+<span id="cb1-3"><a href="#cb1-3"></a></span>
+<span id="cb1-4"><a href="#cb1-4"></a><span class="an">editor:</span></span>
+<span id="cb1-5"><a href="#cb1-5"></a><span class="co">   render-on-save: true</span></span>
+<span id="cb1-6"><a href="#cb1-6"></a><span class="an">listing:</span></span>
+<span id="cb1-7"><a href="#cb1-7"></a><span class="co">  table-striped: true</span></span>
+<span id="cb1-8"><a href="#cb1-8"></a><span class="co">  id: listing-posts</span></span>
+<span id="cb1-9"><a href="#cb1-9"></a><span class="co">  sort: "date desc"</span></span>
+<span id="cb1-10"><a href="#cb1-10"></a><span class="co">  filter-ui: true</span></span>
+<span id="cb1-11"><a href="#cb1-11"></a><span class="co">  sort-ui: true</span></span>
+<span id="cb1-12"><a href="#cb1-12"></a><span class="co">  type: table</span></span>
+<span id="cb1-13"><a href="#cb1-13"></a><span class="co">  table-hover: true</span></span>
+<span id="cb1-14"><a href="#cb1-14"></a><span class="co">  fields: [title, date, categories]</span></span>
+<span id="cb1-15"><a href="#cb1-15"></a><span class="co">  categories: true</span></span>
+<span id="cb1-16"><a href="#cb1-16"></a><span class="co">  date-format: iso</span></span>
+<span id="cb1-17"><a href="#cb1-17"></a><span class="co">  field-display-names:</span></span>
+<span id="cb1-18"><a href="#cb1-18"></a><span class="co">      date: "&lt;b&gt;When&lt;/b&gt;"</span></span>
+<span id="cb1-19"><a href="#cb1-19"></a><span class="co">      title: "&lt;b&gt;What&lt;/b&gt;"</span></span>
+<span id="cb1-20"><a href="#cb1-20"></a><span class="co">  contents:</span></span>
+<span id="cb1-21"><a href="#cb1-21"></a><span class="co">    - "../posts/initial-commit/index.qmd"</span></span>
+<span id="cb1-22"><a href="#cb1-22"></a><span class="co">---</span></span>
+<span id="cb1-23"><a href="#cb1-23"></a></span>
+<span id="cb1-24"><a href="#cb1-24"></a><span class="fu">## 🔥 Hot off the Press 📰</span></span>
+<span id="cb1-25"><a href="#cb1-25"></a></span>
+<span id="cb1-26"><a href="#cb1-26"></a>:::: {.feature}</span>
+<span id="cb1-27"><a href="#cb1-27"></a></span>
+<span id="cb1-28"><a href="#cb1-28"></a>::: {#listing-posts}</span>
+<span id="cb1-29"><a href="#cb1-29"></a>:::</span>
+<span id="cb1-30"><a href="#cb1-30"></a></span>
+<span id="cb1-31"><a href="#cb1-31"></a>::::</span></code><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></pre></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
 
