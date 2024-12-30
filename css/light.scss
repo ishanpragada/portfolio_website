@@ -110,8 +110,8 @@ $presentation-heading-letter-spacing: normal !default;
 
 // links
 // $link-color: #42affa;
-$link-color: rgba(19, 122, 245, 1.0) !default;
-$dark-bg-link-color: #137af5 !default;
+$link-color: #8a71fc !default;
+$dark-bg-link-color: #8a71fc !default;
 $link-bg-color: rgba(19, 122, 245, .062745098);
 $link-border-radius: 0.05rem;
 // $link-color-hover: #F06292 !default;
@@ -121,7 +121,7 @@ $light-bg-link-color: #1A8FFF !default;
 // code blocks
 // $code-block-border-color: lighten($body-color, 60%) !default;
 // $dark-bg-code-color: #E599F7 !default;
-$link-color-hover: #FF1A8F !default;
+$link-color-hover: #8a71fc !default;
 $link-hover-bg-opacity: 0.05 !default;
 // $code-block-bg-color: hsl(0, 0, 98%) !default;
 $code-block-bg-color: rgb(250, 250, 250) !default;

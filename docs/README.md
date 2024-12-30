@@ -1,5 +1,5 @@
 Ishan Buyyanapragada
-2024-12-27
+2024-12-29
 
 <div style="font-size:1.0em; text-align: center;">
 
@@ -194,7 +194,7 @@ Table 2: 🎓 Education
 
   [UIUC]: https://illinois.edu
   [1]: ./assets/avatar.jpg
-  [2]: https://www.instagram.com/ishanshankr/
+  [2]: https://ishan-web-chatbot.vercel.app/
   [<span class="icon dim-text" style="font-size: 1.5rem; padding-right:0pt;"></span>]:
     https://ishankr.com
   [3]: https://github.com/ishanpragada/
