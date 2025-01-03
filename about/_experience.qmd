@@ -9,7 +9,7 @@
 | Research Intern                                                                    |                              [ALCF](https://alcf.anl.gov)          |  2023 | 2024 |
 | CELS Research Assistant                                                            |  [ANL](https://www.anl.gov/)                                       |  2021 | 2023 |
 
-:  💻 Work {.responsive .striped .hover}
+:  💻 Work {.responsive .striped}
 :::
 
 #### 🍎 School {style="text-align:center;"}
@@ -21,7 +21,7 @@
 | B.Sc                                  |  [Computer Science](https://grainger.illinois.edu/academics/undergraduate/majors-and-minors/computer-science)  |      [UIUC](https://illinois.edu/) | 2027 |
 
 
-: 🎓 Education {.responsive .striped .hover}
+: 🎓 Education {.responsive .striped}
 :::
 
 

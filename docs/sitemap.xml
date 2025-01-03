@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://ishankr.com/qmd/projects/index.html</loc>
-    <lastmod>2024-12-27T23:26:08.308Z</lastmod>
+    <lastmod>2025-01-03T00:26:04.037Z</lastmod>
   </url>
   <url>
     <loc>https://ishankr.com/posts/ezpz-v1/index.html</loc>
@@ -38,7 +38,7 @@
   </url>
   <url>
     <loc>https://ishankr.com/index.html</loc>
-    <lastmod>2024-12-30T04:39:42.316Z</lastmod>
+    <lastmod>2025-01-03T01:48:11.034Z</lastmod>
   </url>
   <url>
     <loc>https://ishankr.com/posts/AuroraGPT/checkpoints/index.html</loc>
@@ -70,14 +70,10 @@
   </url>
   <url>
     <loc>https://ishankr.com/posts/index.html</loc>
-    <lastmod>2024-12-27T23:21:26.637Z</lastmod>
+    <lastmod>2025-01-03T00:26:04.021Z</lastmod>
   </url>
   <url>
     <loc>https://ishankr.com/posts/jupyter/test/index.html</loc>
     <lastmod>2024-12-03T07:19:46.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ishankr.com/posts/initial-commit/index.html</loc>
-    <lastmod>2024-12-28T03:46:26.433Z</lastmod>
   </url>
 </urlset>

@@ -523,26 +523,5 @@
     "title": "l2hmc Example: 2D U(1)",
     "section": "Comparisons",
     "text": "Comparisons\nimport matplotlib.pyplot as plt\nfrom l2hmc.utils.plot_helpers import set_plot_style, COLORS\n\nimport seaborn as sns\nset_plot_style()\nplt.rcParams['axes.linewidth'] = 2.0\nsns.set_context('notebook', font_scale=1.25)\nfigsize = plt.rcParamsDefault['figure.figsize']\nplt.rcParams['figure.dpi'] = plt.rcParamsDefault['figure.dpi']\n\nfor idx in range(4):\n    fig, (ax, ax1) = plt.subplots(\n        ncols=2,\n        #nrows=4,\n        figsize=(3. * figsize[0], figsize[1]),\n    )\n    _ = ax.plot(\n        dsets['pt']['eval'].intQ[idx] + 5,  # .dQint.mean('chain')[100:],\n        color=COLORS['red'],\n        ls=':',\n        label='Trained',\n        lw=1.5,\n    );\n\n    _ = ax.plot(\n        dsets['pt']['hmc'].intQ[idx] - 5,  # .dQint.mean('chain')[100:],\n        ls='-',\n        label='HMC',\n        color='#666666',\n        zorder=5,\n        lw=2.0,\n    );\n\n    _ = ax1.plot(\n        dsets['tf']['eval'].intQ[idx] + 5,  # .dQint.mean('chain')[-100:],\n        color=COLORS['blue'],\n        ls=':',\n        label='Trained',\n        lw=1.5,\n\n    );\n    _ = ax1.plot(\n        dsets['tf']['hmc'].intQ[idx] - 5,  # .dQint.mean('chain')[-100:],\n        color='#666666',\n        ls='-',\n        label='HMC',\n        zorder=5,\n        lw=2.0,\n    );\n    _ = ax.set_title('PyTorch')\n    _ = ax1.set_title('TensorFlow')\n    #_ = ax1.set_ylim(ax.get_ylim())\n    _ = ax.grid(True, alpha=0.2)\n    _ = ax1.grid(True, alpha=0.2)\n    _ = ax.set_xlabel('MD Step')\n    _ = ax1.set_xlabel('MD Step')\n    _ = ax.set_ylabel('dQint'\n                     )\n    _ = ax.legend(loc='best', ncol=2, labelcolor='#939393')\n    _ = ax1.legend(loc='best', ncol=2, labelcolor='#939393')\n\n\n\n\noutput"
-  },
-  {
-    "objectID": "posts/initial-commit/index.html#disclaimer-im-new-to-this.",
-    "href": "posts/initial-commit/index.html#disclaimer-im-new-to-this.",
-    "title": "🎬 Initial Commit",
-    "section": "Disclaimer: I’m new to this.",
-    "text": "Disclaimer: I’m new to this.\nWinter break started recently and I decided to revamp my website.1 As I write this, I’m not even finished with some of the sections, but I wanted to use this as a space to remind myself how to do things in Quarto."
-  },
-  {
-    "objectID": "posts/initial-commit/index.html#why-quarto",
-    "href": "posts/initial-commit/index.html#why-quarto",
-    "title": "🎬 Initial Commit",
-    "section": "Why Quarto?",
-    "text": "Why Quarto?\nQuarto is pretty similar to R Markdown, but it’s got elegant cross-referencing, multi-language support, and multiple column integration.2"
-  },
-  {
-    "objectID": "posts/initial-commit/index.html#footnotes",
-    "href": "posts/initial-commit/index.html#footnotes",
-    "title": "🎬 Initial Commit",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nMy hand was forced after people reached out still thinking I was a junior in high school.↩︎\nOkay the last one is not as important, but it was such a pain in Markdown.↩︎"
   }
 ]

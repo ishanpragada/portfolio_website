@@ -4,14 +4,14 @@
 // write a line of css to import source sans pro frmo Google Fonts API
 // @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
 //
-// @import url("https://fonts.googleapis.com/css?family=Source+Sans+");
-// @import url("https://fonts.googleapis.com/css?family=IBM+Plex+Mono");
-// @import url("https://fonts.googleapis.com/css?family=IBM+Plex+Condensed");
-// @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap&family=IBM+Plex+Sans+Condensed&display=swap&family=IBM+Plex+Sans&display=swap");
-// @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:wght@700&display=swap');
-// @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@0;1&family=IBM+Plex+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
-// @import url("https://unpkg.com/open-props/colors-oklch.min.css");
-// @import url("https://unpkg.com/open-props/oklch-hues.min.css");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+");
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Mono");
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Condensed");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap&family=IBM+Plex+Sans+Condensed&display=swap&family=IBM+Plex+Sans&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@0;1&family=IBM+Plex+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://unpkg.com/open-props/colors-oklch.min.css");
+@import url("https://unpkg.com/open-props/oklch-hues.min.css");
 
 // @import "dark";
 // @import "light";
@@ -3425,7 +3425,7 @@ nav.quarto-secondary-nav {
       green($code-color),
       blue($code-color),
       0.05);
-  --bs-navbar-brand-color: #adadad;
+  --bs-navbar-brand-color: gray;
   --bs-navbar-brand-hover-color: $link-color-hover;
   --bs-navbar-toggler-border-color: rgba(173, 173, 173, 0);
   // --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23adadad' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");

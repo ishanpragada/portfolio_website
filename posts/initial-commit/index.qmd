@@ -13,6 +13,7 @@ open-graph:
 categories:
   - reference
   - coding
+draft: true
 ---
 
 ## Disclaimer: I'm new to this.
