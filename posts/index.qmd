@@ -1,6 +1,5 @@
 ---
 title: "📬 Posts"
-
 editor:
    render-on-save: true
 listing:

@@ -1,6 +1,8 @@
 [
   {
     "listing": "/posts/index.html",
-    "items": []
+    "items": [
+      "/posts/initial-commit/index.html"
+    ]
   }
 ]

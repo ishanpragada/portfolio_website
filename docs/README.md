@@ -1,5 +1,5 @@
 Ishan Buyyanapragada
-2025-01-02
+2025-01-03
 
 <div style="font-size:1.0em; text-align: center;">
 
@@ -200,7 +200,7 @@ Table 2: 🎓 Education
   [3]: https://github.com/ishanpragada/
   [4]: https://www.linkedin.com/in/ishan-buyyanapragada-787533258/
   [5]: mailto:///ibuyy@illinois.edu
-  [6]: https://open.spotify.com/user/saforem2
+  [6]: https://open.spotify.com/user/ishanpragada
   [disruptive]: https://giesbusiness.illinois.edu/disruption-lab
   [health infodemics]: https://ischool.illinois.edu/news-events/news/2023/04/virtual-center-addresses-health-infodemics
   [7]: https://spotify-github-profile.kittinanx.com/api/view?uid=ishanpragada&cover_image=true&theme=novatorem&show_offline=false&background_color=000000&interchange=false&bar_color=53b14f&bar_color_cover=true.png
