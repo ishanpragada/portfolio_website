@@ -49,8 +49,8 @@ style="width: 100%; justify-content: space-between; align-items: flex-start;">
 >
 > ### 🔧 <span class="dim-text" style="font-size:1.0em!important;">Recent Work</span>
 >
-> <span class="dim-text" style="font-size:1em;">\[[here]\] ( + how I
-> [make them][here]! )</span>
+> <span class="dim-text" style="font-size:1em;">\[here\] ( + how I make
+> them)!</span>
 
 > [!TIP]
 >
@@ -203,7 +203,6 @@ Table 2: 🎓 Education
   [6]: https://open.spotify.com/user/saforem2
   [disruptive]: https://giesbusiness.illinois.edu/disruption-lab
   [health infodemics]: https://ischool.illinois.edu/news-events/news/2023/04/virtual-center-addresses-health-infodemics
-  [here]: 404.qmd
   [7]: https://spotify-github-profile.kittinanx.com/api/view?uid=ishanpragada&cover_image=true&theme=novatorem&show_offline=false&background_color=000000&interchange=false&bar_color=53b14f&bar_color_cover=true.png
   [8]: https://spotify-github-profile.kittinanx.com/api/view?uid=ishanpragada&redirect=true
   [9]: assets/beach.JPG
