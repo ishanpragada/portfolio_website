@@ -15,6 +15,7 @@ open-graph:
 categories:
   - reference
   - coding
+draft: true
 ---
 
 Winter break started recently and I decided to revamp my website.[^reason] As I write this, I'm not even finished with some of the sections, but I wanted to use this as a space to remind myself how to do things in [Quarto](quarto.org). 
