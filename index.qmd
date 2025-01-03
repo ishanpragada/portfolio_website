@@ -53,12 +53,19 @@ format-links: false
 ::: {.gallery} 
 
 ![](assets/beach.JPG)
+
 ![](assets/suit.png)
+
 ![](assets/park.png)
+
 ![](assets/three.JPG)
+
 ![](assets/santa%20(1).jpg)
+
 ![](assets/dorm%20(1).jpg)
+
 ![](assets/grad%20(1).jpg)
+
 ![](assets/arang.jpeg)
 
 

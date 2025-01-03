@@ -2303,7 +2303,7 @@ th {
 }
 
 .table {
-  --bs-table-hover-bg: RGBA(138, 113, 252, 0.5) !important;
+  --bs-table-hover-bg: RGBA(138, 113, 252, 0.25) !important;
   --bs-table-hover-color: #000000;
   border-top: $bs-table-border-color;
   border-bottom: $bs-table-border-color;

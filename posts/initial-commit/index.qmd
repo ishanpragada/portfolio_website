@@ -1,6 +1,8 @@
 ---
 title: "🎬 Initial Commit"
 toc: true
+editor:
+  render-on-save: true
 date: 2024-12-23
 modified: 2024-12-23
 lightbox: auto
@@ -15,8 +17,6 @@ categories:
   - coding
 ---
 
-## Disclaimer: I'm new to this.
-
 Winter break started recently and I decided to revamp my website.[^reason] As I write this, I'm not even finished with some of the sections, but I wanted to use this as a space to remind myself how to do things in [Quarto](quarto.org). 
 
 
@@ -24,7 +24,20 @@ Winter break started recently and I decided to revamp my website.[^reason] As I 
 
 ## Why Quarto?
 
-Quarto is pretty similar to [R Markdown](https://rmarkdown.rstudio.com/), but it's got [elegant cross-referencing](https://quarto.org/docs/authoring/cross-references.html), [multi-language support](https://quarto.org/docs/reference/cells/), and [multiple column integration](https://quarto.org/docs/authoring/figures.html#complex-layouts).[^not-important]
+Quarto is pretty similar to [R Markdown](https://rmarkdown.rstudio.com/), but it's got [elegant cross-referencing](https://quarto.org/docs/authoring/cross-references.html), [multi-language support](https://quarto.org/docs/reference/cells/), and [multiple column integration](https://quarto.org/docs/authoring/figures.html#complex-layouts).[^not-important] However, the main caveat with all these features is that I will inevitably forget how to code something, which is why this post exists. If you're curious, you can click on the ``</> Code`` button in the top right to see the source code of the post.
 
 [^not-important]: Okay the last one is not as important, but it was such a pain in Markdown.
 
+## Layouts
+
+Quarto layouts are easily customizable, especially with figures:
+
+::: {layout='[[1,1],[1]]'}
+
+![](assets/placeholder.svg)
+
+![](assets/placeholder.svg)
+
+![](assets/placeholder.svg)
+
+:::

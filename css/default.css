@@ -55,7 +55,7 @@
     /* --bs-font-monospace: "IBM Plex Mono", "Iosevka Web", "agave Nerd Font", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; */
     --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
     --bs-root-font-size: 17px;
-    --bs-table-hover-bg: RGBA(138, 113, 252, 0.5);
+    --bs-table-hover-bg: RGBA(138, 113, 252, 0.25);
     --bs-table-hover-color: #000000;
     --bs-body-font-family: var(--bs-font-sans-serif);
     --bs-body-font-size: 1rem;

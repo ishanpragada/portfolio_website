@@ -18,7 +18,7 @@
     "href": "index.html",
     "title": "Ishan's Portfolio",
     "section": "",
-    "text": "👋 hi, i’m ishan!\n\n    \n\n\n\n🧑🏻‍💻 about📦 projects🪖 experience🎶 music\n\n\n\n\n\ncomputer science student @ UIUC\ncurrently interested in:\n\nbuilding sustainable solutions to everyday problems using disruptive technologies.\nidentifying and addressing health infodemics.\n\n\n\n\n\n\n\n\n\n\n🔧 Recent Work\n\n\n\n\n\n[here] ( + how I make them)!\n\n\n\n\n\n\n\n\n\n Now Playing\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n📷 Gallery\n\n\n\n\n\n\n       \n\n\n\n© Copyright Ishan Buyyanapragada\n\n\n\n\n\n\n\n\n\n\n\n\n\n📂 ishanpragada/\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n👔 Employment\n\n\n\nTable 1: 💻 Work\n\n\n\n\n\n\nPosition\n@\nStart\nEnd\n\n\n\n\nSoftware Engineering Intern\nANB Systems\n2024\n–\n\n\nSoftware Developer\nDisruption Lab\n2024\n–\n\n\nResearch Intern\nALCF\n2023\n2024\n\n\nCELS Research Assistant\nANL\n2021\n2023\n\n\n\n\n\n\n\n\n\n🍎 School\n\n\n\nTable 2: 🎓 Education\n\n\n\n\n\n\nDegree\nIn\n@\nEnd\n\n\n\n\nB.Sc\nComputer Science\nUIUC\n2027"
+    "text": "👋 hi, i’m ishan!\n\n    \n\n\n\n🧑🏻‍💻 about📦 projects🪖 experience🎶 music\n\n\n\n\n\ncomputer science student @ UIUC\ncurrently interested in:\n\nbuilding sustainable solutions to everyday problems using disruptive technologies.\nidentifying and addressing health infodemics.\n\n\n\n\n\n\n\n\n\n\n🔧 Recent Work\n\n\n\n\n\n[here] ( + how I make them)!\n\n\n\n\n\n\n\n\n\n Now Playing\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n📷 Gallery\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n© Copyright Ishan Buyyanapragada\n\n\n\n\n\n\n\n\n\n\n\n\n\n📂 ishanpragada/\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n👔 Employment\n\n\n\nTable 1: 💻 Work\n\n\n\n\n\n\nPosition\n@\nStart\nEnd\n\n\n\n\nSoftware Engineering Intern\nANB Systems\n2024\n–\n\n\nSoftware Developer\nDisruption Lab\n2024\n–\n\n\nResearch Intern\nALCF\n2023\n2024\n\n\nCELS Research Assistant\nANL\n2021\n2023\n\n\n\n\n\n\n\n\n\n🍎 School\n\n\n\nTable 2: 🎓 Education\n\n\n\n\n\n\nDegree\nIn\n@\nEnd\n\n\n\n\nB.Sc\nComputer Science\nUIUC\n2027"
   },
   {
     "objectID": "posts/initial-commit/index.html#disclaimer-im-new-to-this.",
@@ -32,7 +32,7 @@
     "href": "posts/initial-commit/index.html#why-quarto",
     "title": "🎬 Initial Commit",
     "section": "Why Quarto?",
-    "text": "Why Quarto?\nQuarto is pretty similar to R Markdown, but it’s got elegant cross-referencing, multi-language support, and multiple column integration.2"
+    "text": "Why Quarto?\nQuarto is pretty similar to R Markdown, but it’s got elegant cross-referencing, multi-language support, and multiple column integration.2 However, the main caveat with all these features is that I will inevitably forget how to code something, which is why this post exists. If you’re curious, you can click on the &lt;/&gt; Code button in the top right to see the source code of the post."
   },
   {
     "objectID": "posts/initial-commit/index.html#footnotes",
@@ -40,5 +40,26 @@
     "title": "🎬 Initial Commit",
     "section": "Footnotes",
     "text": "Footnotes\n\n\nMy hand was forced after people reached out still thinking I was a junior in high school.↩︎\nOkay the last one is not as important, but it was such a pain in Markdown.↩︎"
+  },
+  {
+    "objectID": "posts/initial-commit/index.html",
+    "href": "posts/initial-commit/index.html",
+    "title": "🎬 Initial Commit",
+    "section": "",
+    "text": "Winter break started recently and I decided to revamp my website.1 As I write this, I’m not even finished with some of the sections, but I wanted to use this as a space to remind myself how to do things in Quarto."
+  },
+  {
+    "objectID": "posts/initial-commit/index.html#section-1-layouts",
+    "href": "posts/initial-commit/index.html#section-1-layouts",
+    "title": "🎬 Initial Commit",
+    "section": "Section 1: Layouts",
+    "text": "Section 1: Layouts"
+  },
+  {
+    "objectID": "posts/initial-commit/index.html#layouts",
+    "href": "posts/initial-commit/index.html#layouts",
+    "title": "🎬 Initial Commit",
+    "section": "Layouts",
+    "text": "Layouts\nQuarto layouts are easily customizable, especially with figures:"
   }
 ]

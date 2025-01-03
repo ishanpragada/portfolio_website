@@ -40,9 +40,12 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-167d297b085d226b4bffdca4ab80b4f8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-a24d4a2dcc5850608ef3dfba2050c5ea.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-a37bcca593c19d983eb49a7bcfd272b0.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-43b14148eeac2a836038334405ab2e21.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script src="site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -329,7 +332,14 @@ ul.task-list li input[type="checkbox"] {
 <div id="callout-3" class="callout-3-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <div class="gallery">
-<p><img src="assets/beach.JPG" class="img-fluid"> <img src="assets/suit.png" class="img-fluid"> <img src="assets/park.png" class="img-fluid"> <img src="assets/three.JPG" class="img-fluid"> <img src="assets/santa (1).jpg" class="img-fluid"> <img src="assets/dorm (1).jpg" class="img-fluid"> <img src="assets/grad (1).jpg" class="img-fluid"> <img src="assets/arang.jpeg" class="img-fluid"></p>
+<p><a href="assets/beach.JPG" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="assets/beach.JPG" class="img-fluid"></a></p>
+<p><a href="assets/suit.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="assets/suit.png" class="img-fluid"></a></p>
+<p><a href="assets/park.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="assets/park.png" class="img-fluid"></a></p>
+<p><a href="assets/three.JPG" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="assets/three.JPG" class="img-fluid"></a></p>
+<p><a href="assets/santa (1).jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-5"><img src="assets/santa (1).jpg" class="img-fluid"></a></p>
+<p><a href="assets/dorm (1).jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-6"><img src="assets/dorm (1).jpg" class="img-fluid"></a></p>
+<p><a href="assets/grad (1).jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-7"><img src="assets/grad (1).jpg" class="img-fluid"></a></p>
+<p><a href="assets/arang.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-8"><img src="assets/arang.jpeg" class="img-fluid"></a></p>
 <style>
 .gallery {
   line-height: 0;
@@ -1085,6 +1095,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 
