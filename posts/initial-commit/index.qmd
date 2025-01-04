@@ -23,6 +23,9 @@ comments:
     mapping: title
     reactions-enabled: true
     input-position: top
+    theme: 
+      light: catppuccin_latte
+      dark: catppuccin_macchiato
 draft: true
 ---
 
