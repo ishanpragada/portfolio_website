@@ -1,12 +1,11 @@
 ---
 title: "🎬 Initial Commit"
 toc: true
-editor:
-  render-on-save: true
 date: 2024-12-23
 modified: 2024-12-23
 lightbox: auto
 tbl-cap-location: bottom
+# include-after-body: ../../posts/_comments.html
 citation: false
 open-graph:
   title: "Initial Commit"
@@ -15,6 +14,15 @@ open-graph:
 categories:
   - reference
   - coding
+comments:
+  giscus: 
+    repo: ishanpragada/portfolio_website
+    category: Announcements
+    repo-id: R_kgDONhksIg
+    category-id: DIC_kwDONhksIs4CltNj
+    mapping: title
+    reactions-enabled: true
+    input-position: top
 draft: true
 ---
 
@@ -33,12 +41,31 @@ Quarto is pretty similar to [R Markdown](https://rmarkdown.rstudio.com/), but it
 
 Quarto layouts are easily customizable, especially with figures:
 
-::: {layout='[[1,1],[1]]'}
+::: {layout='[[1,1,1],[1, 1, 1, 1, 1, 1, 1]]'}
 
 ![](assets/placeholder.svg)
 
 ![](assets/placeholder.svg)
 
 ![](assets/placeholder.svg)
+
+![](assets/placeholder.svg)
+
+![](assets/placeholder.svg)
+
+![](assets/placeholder.svg)
+
+![](assets/placeholder.svg)
+
+![](assets/placeholder.svg)
+
+![](assets/placeholder.svg)
+
+![](assets/placeholder.svg)
+
+
 
 :::
+
+---
+

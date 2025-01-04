@@ -37,6 +37,7 @@ format-links: false
 [[{{< iconify lineicons linkedin inline=true >}}]{.icon .dim-text style="font-size: 1.5rem; padding-right:0pt;"}](https://www.linkedin.com/in/ishan-buyyanapragada-787533258/)
 [[{{< iconify line-md email inline=true >}}]{.icon .dim-text style="font-size: 1.5rem; padding-right:0pt;"}](mailto:///ibuyy@illinois.edu)
 [[{{< iconify line-md spotify inline=true >}}]{.icon .dim-text style="font-size: 1.5rem; padding-right:0pt;"}](https://open.spotify.com/user/ishanpragada)
+[[{{< iconify line-md calendar inline=true >}}]{.icon .dim-text style="font-size: 1.5rem; padding-right:0pt;"}](https://calendly.com/ishanpragada/30min)
 
 :::
 
