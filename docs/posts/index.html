@@ -113,9 +113,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     }
 
     const options = {
-      valueNames: ['listing-title','listing-date','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-title','listing-date','listing-categories',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author"],
+      searchColumns: [],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -333,7 +333,7 @@ window.Quarto = {
   <li><a href="#hot-off-the-press" id="toc-hot-off-the-press" class="nav-link active" data-scroll-target="#hot-off-the-press">🔥 Hot off the Press 📰</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/ishanpragada/portfolio_website/blob/main/posts/index.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/ishanpragada/portfolio_website/edit/main/posts/index.qmd" class="toc-action"><i class="bi empty"></i>Edit this page</a></li><li><a href="https://github.com/ishanpragada/portfolio_website/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y29kaW5n">coding <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cmVmZXJlbmNl">reference <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(0)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 <!-- Google Tag Manager (noscript) -->
@@ -379,22 +379,6 @@ window.Quarto = {
 <div class="feature">
 <div id="listing-listing-posts" class="quarto-listing quarto-listing-container-table">
 <div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-listing-posts-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing-posts'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Order By</option>
-       <option value="index" data-direction="asc">Default</option>
-         <option value="listing-date-sort" data-direction="asc">
-          When - Oldest
-        </option>
-         <option value="listing-date-sort" data-direction="desc">
-          When - Newest
-        </option>
-         <option value="listing-title-sort" data-direction="asc">
-          What
-        </option>
-     </select>
-  </div>
     <div class="input-group input-group-sm quarto-listing-filter">
       <span class="input-group-text"><i class="bi bi-search"></i></span>
       <input type="text" class="search form-control" placeholder="Filter">
@@ -404,10 +388,10 @@ window.Quarto = {
 <thead>
 <tr>
 <th>
-<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;"><b>What</b></a>
+<b>What</b>
 </th>
 <th>
-<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;"><b>When</b></a>
+<b>When</b>
 </th>
 <th>
 Categories
@@ -415,18 +399,6 @@ Categories
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-categories="cmVmZXJlbmNlJTJDY29kaW5n" data-listing-date-sort="1734933600000" data-listing-file-modified-sort="1736966963296" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="191" data-listing-title-sort="🎬 Initial Commit" data-listing-filename-sort="index.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="../posts/initial-commit/index.html" class="title listing-title">🎬 Initial Commit</a>
-</td>
-<td>
-<span class="listing-date">2024-12-23</span>
-</td>
-<td>
-<span class="listing-categories">reference, coding</span>
-</td>
-</tr>
 </tbody>
 </table>
 <div class="listing-no-matching d-none">
