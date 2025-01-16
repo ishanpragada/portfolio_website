@@ -115,8 +115,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link rel="stylesheet" href="../../css/custom.css">
 <meta property="og:title" content="Initial Commit">
 <meta property="og:description" content="my first blog where i try to figure everything out without freaking out 🤪">
-<meta property="og:image" content="">
+<meta property="og:image" content="https://ishankr.com/posts/initial-commit/assets/thumbnail.png">
 <meta property="og:site_name" content="Ishan's Portfolio">
+<meta property="og:image:height" content="1220">
+<meta property="og:image:width" content="2570">
 <meta name="citation_title" content="🎬 Initial Commit">
 <meta name="citation_author" content="Ishan Buyyanapragada">
 <meta name="citation_publication_date" content="2024-12-23">
@@ -267,6 +269,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <ul>
   <li><a href="#why-quarto" id="toc-why-quarto" class="nav-link active" data-scroll-target="#why-quarto">Why Quarto?</a></li>
   <li><a href="#layouts" id="toc-layouts" class="nav-link" data-scroll-target="#layouts">Layouts</a></li>
+  <li><a href="#computations" id="toc-computations" class="nav-link" data-scroll-target="#computations">Computations</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/ishanpragada/portfolio_website/blob/main/posts/initial-commit/index.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/ishanpragada/portfolio_website/edit/main/posts/initial-commit/index.qmd" class="toc-action"><i class="bi empty"></i>Edit this page</a></li><li><a href="https://github.com/ishanpragada/portfolio_website/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -365,6 +368,48 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="quarto-layout-cell" style="flex-basis: 14.3%;justify-content: center;">
 <p><a href="assets/placeholder.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-10"><img src="assets/placeholder.svg" class="img-fluid"></a></p>
 </div>
+</div>
+</div>
+</section>
+<section id="computations" class="level2">
+<h2 class="anchored" data-anchor-id="computations">Computations</h2>
+<p>Here’s how to change the blog layout into two columns. I also used this space to showcase some computations in Quarto.</p>
+<div class="flex-container" style="width: 100%; justify-content: space-between; align-items: flex-start;">
+<div class="column" style="width: 30%;">
+<div id="cell-fig-polar" class="cell" data-execution_count="1">
+<div class="cell-output cell-output-display">
+<div id="fig-polar" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-polar-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="index_files/figure-html/fig-polar-output-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-11" title="Figure&nbsp;1: A line plot on a polar axis"><img src="index_files/figure-html/fig-polar-output-1.png" width="450" height="439" class="figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-polar-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: A line plot on a polar axis
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div class="column" style="width: 70%">
+<section id="python-matplotlib.pyplot" class="level2" style="text-align:center;">
+<h2 style="text-align:center;" class="anchored" data-anchor-id="python-matplotlib.pyplot"><code>Python (matplotlib.pyplot)</code></h2>
+<div style="text-align:left;">
+<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1"></a><span class="co">#| label: fig-polar</span></span>
+<span id="cb1-2"><a href="#cb1-2"></a><span class="co">#| fig-cap: "A line plot on a polar axis"</span></span>
+<span id="cb1-3"><a href="#cb1-3"></a></span>
+<span id="cb1-4"><a href="#cb1-4"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-5"><a href="#cb1-5"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-6"><a href="#cb1-6"></a></span>
+<span id="cb1-7"><a href="#cb1-7"></a>r <span class="op">=</span> np.arange(<span class="dv">0</span>, <span class="dv">2</span>, <span class="fl">0.01</span>)</span>
+<span id="cb1-8"><a href="#cb1-8"></a>theta <span class="op">=</span> <span class="dv">2</span> <span class="op">*</span> np.pi <span class="op">*</span> r</span>
+<span id="cb1-9"><a href="#cb1-9"></a>fig, ax <span class="op">=</span> plt.subplots(subplot_kw<span class="op">=</span>{<span class="st">'projection'</span>: <span class="st">'polar'</span>})</span>
+<span id="cb1-10"><a href="#cb1-10"></a>ax.plot(theta, r)</span>
+<span id="cb1-11"><a href="#cb1-11"></a>ax.set_rticks([<span class="fl">0.5</span>, <span class="dv">1</span>, <span class="fl">1.5</span>, <span class="dv">2</span>])</span>
+<span id="cb1-12"><a href="#cb1-12"></a>ax.grid(<span class="va">True</span>)</span>
+<span id="cb1-13"><a href="#cb1-13"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
 </div>
 </div>
 <hr>
@@ -1047,79 +1092,131 @@ function loadGiscusWhenReady() {
 }
 loadGiscusWhenReady();
 </script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
-<div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1"></a><span class="co">---</span></span>
-<span id="cb1-2"><a href="#cb1-2"></a><span class="an">title:</span><span class="co"> "🎬 Initial Commit"</span></span>
-<span id="cb1-3"><a href="#cb1-3"></a><span class="an">toc:</span><span class="co"> true</span></span>
-<span id="cb1-4"><a href="#cb1-4"></a><span class="an">date:</span><span class="co"> 2024-12-23</span></span>
-<span id="cb1-5"><a href="#cb1-5"></a><span class="an">modified:</span><span class="co"> 2024-12-23</span></span>
-<span id="cb1-6"><a href="#cb1-6"></a><span class="an">lightbox:</span><span class="co"> auto</span></span>
-<span id="cb1-7"><a href="#cb1-7"></a><span class="an">tbl-cap-location:</span><span class="co"> bottom</span></span>
-<span id="cb1-8"><a href="#cb1-8"></a><span class="co"># include-after-body: ../../posts/_comments.html</span></span>
-<span id="cb1-9"><a href="#cb1-9"></a><span class="an">citation:</span><span class="co"> false</span></span>
-<span id="cb1-10"><a href="#cb1-10"></a><span class="an">open-graph:</span></span>
-<span id="cb1-11"><a href="#cb1-11"></a><span class="co">  title: "Initial Commit"</span></span>
-<span id="cb1-12"><a href="#cb1-12"></a><span class="co">  description: "my first blog where i try to figure everything out without freaking out 🤪"</span></span>
-<span id="cb1-13"><a href="#cb1-13"></a><span class="co">  image: ""</span></span>
-<span id="cb1-14"><a href="#cb1-14"></a><span class="an">categories:</span></span>
-<span id="cb1-15"><a href="#cb1-15"></a><span class="co">  - reference</span></span>
-<span id="cb1-16"><a href="#cb1-16"></a><span class="co">  - coding</span></span>
-<span id="cb1-17"><a href="#cb1-17"></a><span class="an">comments:</span></span>
-<span id="cb1-18"><a href="#cb1-18"></a><span class="co">  giscus: </span></span>
-<span id="cb1-19"><a href="#cb1-19"></a><span class="co">    repo: ishanpragada/portfolio_website</span></span>
-<span id="cb1-20"><a href="#cb1-20"></a><span class="co">    category: Announcements</span></span>
-<span id="cb1-21"><a href="#cb1-21"></a><span class="co">    repo-id: R_kgDONhksIg</span></span>
-<span id="cb1-22"><a href="#cb1-22"></a><span class="co">    category-id: DIC_kwDONhksIs4CltNj</span></span>
-<span id="cb1-23"><a href="#cb1-23"></a><span class="co">    mapping: title</span></span>
-<span id="cb1-24"><a href="#cb1-24"></a><span class="co">    reactions-enabled: true</span></span>
-<span id="cb1-25"><a href="#cb1-25"></a><span class="co">    input-position: top</span></span>
-<span id="cb1-26"><a href="#cb1-26"></a><span class="co">    theme: </span></span>
-<span id="cb1-27"><a href="#cb1-27"></a><span class="co">      light: catppuccin_latte</span></span>
-<span id="cb1-28"><a href="#cb1-28"></a><span class="co">      dark: catppuccin_macchiato</span></span>
-<span id="cb1-29"><a href="#cb1-29"></a><span class="an">draft:</span><span class="co"> true</span></span>
-<span id="cb1-30"><a href="#cb1-30"></a><span class="co">---</span></span>
-<span id="cb1-31"><a href="#cb1-31"></a></span>
-<span id="cb1-32"><a href="#cb1-32"></a>Winter break started recently and I decided to revamp my website.<span class="ot">[^reason]</span> As I write this, I'm not even finished with some of the sections, but I wanted to use this as a space to remind myself how to do things in <span class="co">[</span><span class="ot">Quarto</span><span class="co">](quarto.org)</span>. </span>
-<span id="cb1-33"><a href="#cb1-33"></a></span>
-<span id="cb1-34"><a href="#cb1-34"></a></span>
-<span id="cb1-35"><a href="#cb1-35"></a><span class="ot">[^reason]: </span>My hand was forced after people reached out still thinking I was a junior in _high school_.</span>
-<span id="cb1-36"><a href="#cb1-36"></a></span>
-<span id="cb1-37"><a href="#cb1-37"></a><span class="fu">## Why Quarto?</span></span>
-<span id="cb1-38"><a href="#cb1-38"></a></span>
-<span id="cb1-39"><a href="#cb1-39"></a>Quarto is pretty similar to <span class="co">[</span><span class="ot">R Markdown</span><span class="co">](https://rmarkdown.rstudio.com/)</span>, but it's got <span class="co">[</span><span class="ot">elegant cross-referencing</span><span class="co">](https://quarto.org/docs/authoring/cross-references.html)</span>, <span class="co">[</span><span class="ot">multi-language support</span><span class="co">](https://quarto.org/docs/reference/cells/)</span>, and <span class="co">[</span><span class="ot">multiple column integration</span><span class="co">](https://quarto.org/docs/authoring/figures.html#complex-layouts)</span>.<span class="ot">[^not-important]</span> However, the main caveat with all these features is that I will inevitably forget how to code something, which is why this post exists. If you're curious, you can click on the ``&lt;/&gt; Code`` button in the top right to see the source code of the post.</span>
-<span id="cb1-40"><a href="#cb1-40"></a></span>
-<span id="cb1-41"><a href="#cb1-41"></a><span class="ot">[^not-important]: </span>Okay the last one is not as important, but it was such a pain in Markdown.</span>
-<span id="cb1-42"><a href="#cb1-42"></a></span>
-<span id="cb1-43"><a href="#cb1-43"></a><span class="fu">## Layouts</span></span>
-<span id="cb1-44"><a href="#cb1-44"></a></span>
-<span id="cb1-45"><a href="#cb1-45"></a>Quarto layouts are easily customizable, especially with figures:</span>
-<span id="cb1-46"><a href="#cb1-46"></a></span>
-<span id="cb1-47"><a href="#cb1-47"></a>::: {layout='[<span class="co">[</span><span class="ot">1,1,1</span><span class="co">]</span>,<span class="co">[</span><span class="ot">1, 1, 1, 1, 1, 1, 1</span><span class="co">]</span>]'}</span>
-<span id="cb1-48"><a href="#cb1-48"></a></span>
-<span id="cb1-49"><a href="#cb1-49"></a><span class="al">![](assets/placeholder.svg)</span></span>
-<span id="cb1-50"><a href="#cb1-50"></a></span>
-<span id="cb1-51"><a href="#cb1-51"></a><span class="al">![](assets/placeholder.svg)</span></span>
-<span id="cb1-52"><a href="#cb1-52"></a></span>
-<span id="cb1-53"><a href="#cb1-53"></a><span class="al">![](assets/placeholder.svg)</span></span>
-<span id="cb1-54"><a href="#cb1-54"></a></span>
-<span id="cb1-55"><a href="#cb1-55"></a><span class="al">![](assets/placeholder.svg)</span></span>
-<span id="cb1-56"><a href="#cb1-56"></a></span>
-<span id="cb1-57"><a href="#cb1-57"></a><span class="al">![](assets/placeholder.svg)</span></span>
-<span id="cb1-58"><a href="#cb1-58"></a></span>
-<span id="cb1-59"><a href="#cb1-59"></a><span class="al">![](assets/placeholder.svg)</span></span>
-<span id="cb1-60"><a href="#cb1-60"></a></span>
-<span id="cb1-61"><a href="#cb1-61"></a><span class="al">![](assets/placeholder.svg)</span></span>
-<span id="cb1-62"><a href="#cb1-62"></a></span>
-<span id="cb1-63"><a href="#cb1-63"></a><span class="al">![](assets/placeholder.svg)</span></span>
-<span id="cb1-64"><a href="#cb1-64"></a></span>
-<span id="cb1-65"><a href="#cb1-65"></a><span class="al">![](assets/placeholder.svg)</span></span>
-<span id="cb1-66"><a href="#cb1-66"></a></span>
-<span id="cb1-67"><a href="#cb1-67"></a><span class="al">![](assets/placeholder.svg)</span></span>
-<span id="cb1-68"><a href="#cb1-68"></a></span>
-<span id="cb1-69"><a href="#cb1-69"></a></span>
-<span id="cb1-70"><a href="#cb1-70"></a></span>
-<span id="cb1-71"><a href="#cb1-71"></a>:::</span>
-<span id="cb1-72"><a href="#cb1-72"></a></span>
-<span id="cb1-73"><a href="#cb1-73"></a>---</span></code><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb2" data-shortcodes="false"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb2-1"><a href="#cb2-1"></a><span class="co">---</span></span>
+<span id="cb2-2"><a href="#cb2-2"></a><span class="an">title:</span><span class="co"> "🎬 Initial Commit"</span></span>
+<span id="cb2-3"><a href="#cb2-3"></a><span class="an">toc:</span><span class="co"> true</span></span>
+<span id="cb2-4"><a href="#cb2-4"></a><span class="an">date:</span><span class="co"> 2024-12-23</span></span>
+<span id="cb2-5"><a href="#cb2-5"></a><span class="an">modified:</span><span class="co"> 2024-12-23</span></span>
+<span id="cb2-6"><a href="#cb2-6"></a><span class="an">lightbox:</span><span class="co"> auto</span></span>
+<span id="cb2-7"><a href="#cb2-7"></a><span class="an">tbl-cap-location:</span><span class="co"> bottom</span></span>
+<span id="cb2-8"><a href="#cb2-8"></a><span class="co"># include-after-body: ../../posts/_comments.html</span></span>
+<span id="cb2-9"><a href="#cb2-9"></a><span class="an">citation:</span><span class="co"> false</span></span>
+<span id="cb2-10"><a href="#cb2-10"></a><span class="an">open-graph:</span></span>
+<span id="cb2-11"><a href="#cb2-11"></a><span class="co">  title: "Initial Commit"</span></span>
+<span id="cb2-12"><a href="#cb2-12"></a><span class="co">  description: "my first blog where i try to figure everything out without freaking out 🤪"</span></span>
+<span id="cb2-13"><a href="#cb2-13"></a><span class="co">  image: "assets/thumbnail.png"</span></span>
+<span id="cb2-14"><a href="#cb2-14"></a><span class="an">categories:</span></span>
+<span id="cb2-15"><a href="#cb2-15"></a><span class="co">  - reference</span></span>
+<span id="cb2-16"><a href="#cb2-16"></a><span class="co">  - coding</span></span>
+<span id="cb2-17"><a href="#cb2-17"></a><span class="an">echo:</span><span class="co"> false</span></span>
+<span id="cb2-18"><a href="#cb2-18"></a><span class="an">comments:</span></span>
+<span id="cb2-19"><a href="#cb2-19"></a><span class="co">  giscus: </span></span>
+<span id="cb2-20"><a href="#cb2-20"></a><span class="co">    repo: ishanpragada/portfolio_website</span></span>
+<span id="cb2-21"><a href="#cb2-21"></a><span class="co">    category: Announcements</span></span>
+<span id="cb2-22"><a href="#cb2-22"></a><span class="co">    repo-id: R_kgDONhksIg</span></span>
+<span id="cb2-23"><a href="#cb2-23"></a><span class="co">    category-id: DIC_kwDONhksIs4CltNj</span></span>
+<span id="cb2-24"><a href="#cb2-24"></a><span class="co">    mapping: title</span></span>
+<span id="cb2-25"><a href="#cb2-25"></a><span class="co">    reactions-enabled: true</span></span>
+<span id="cb2-26"><a href="#cb2-26"></a><span class="co">    input-position: top</span></span>
+<span id="cb2-27"><a href="#cb2-27"></a><span class="co">    theme: </span></span>
+<span id="cb2-28"><a href="#cb2-28"></a><span class="co">      light: catppuccin_latte</span></span>
+<span id="cb2-29"><a href="#cb2-29"></a><span class="co">      dark: catppuccin_macchiato</span></span>
+<span id="cb2-30"><a href="#cb2-30"></a><span class="an">draft:</span><span class="co"> true</span></span>
+<span id="cb2-31"><a href="#cb2-31"></a><span class="co">---</span></span>
+<span id="cb2-32"><a href="#cb2-32"></a></span>
+<span id="cb2-33"><a href="#cb2-33"></a>Winter break started recently and I decided to revamp my website.<span class="ot">[^reason]</span> As I write this, I'm not even finished with some of the sections, but I wanted to use this as a space to remind myself how to do things in <span class="co">[</span><span class="ot">Quarto</span><span class="co">](quarto.org)</span>. </span>
+<span id="cb2-34"><a href="#cb2-34"></a></span>
+<span id="cb2-35"><a href="#cb2-35"></a></span>
+<span id="cb2-36"><a href="#cb2-36"></a><span class="ot">[^reason]: </span>My hand was forced after people reached out still thinking I was a junior in _high school_.</span>
+<span id="cb2-37"><a href="#cb2-37"></a></span>
+<span id="cb2-38"><a href="#cb2-38"></a><span class="fu">## Why Quarto?</span></span>
+<span id="cb2-39"><a href="#cb2-39"></a></span>
+<span id="cb2-40"><a href="#cb2-40"></a>Quarto is pretty similar to <span class="co">[</span><span class="ot">R Markdown</span><span class="co">](https://rmarkdown.rstudio.com/)</span>, but it's got <span class="co">[</span><span class="ot">elegant cross-referencing</span><span class="co">](https://quarto.org/docs/authoring/cross-references.html)</span>, <span class="co">[</span><span class="ot">multi-language support</span><span class="co">](https://quarto.org/docs/reference/cells/)</span>, and <span class="co">[</span><span class="ot">multiple column integration</span><span class="co">](https://quarto.org/docs/authoring/figures.html#complex-layouts)</span>.<span class="ot">[^not-important]</span> However, the main caveat with all these features is that I will inevitably forget how to code something, which is why this post exists. If you're curious, you can click on the ``&lt;/&gt; Code`` button in the top right to see the source code of the post.</span>
+<span id="cb2-41"><a href="#cb2-41"></a></span>
+<span id="cb2-42"><a href="#cb2-42"></a><span class="ot">[^not-important]: </span>Okay the last one is not as important, but it was such a pain in Markdown.</span>
+<span id="cb2-43"><a href="#cb2-43"></a></span>
+<span id="cb2-44"><a href="#cb2-44"></a><span class="fu">## Layouts</span></span>
+<span id="cb2-45"><a href="#cb2-45"></a></span>
+<span id="cb2-46"><a href="#cb2-46"></a>Quarto layouts are easily customizable, especially with figures:</span>
+<span id="cb2-47"><a href="#cb2-47"></a></span>
+<span id="cb2-48"><a href="#cb2-48"></a>::: {layout='[<span class="co">[</span><span class="ot">1,1,1</span><span class="co">]</span>,<span class="co">[</span><span class="ot">1, 1, 1, 1, 1, 1, 1</span><span class="co">]</span>]'}</span>
+<span id="cb2-49"><a href="#cb2-49"></a></span>
+<span id="cb2-50"><a href="#cb2-50"></a><span class="al">![](assets/placeholder.svg)</span></span>
+<span id="cb2-51"><a href="#cb2-51"></a></span>
+<span id="cb2-52"><a href="#cb2-52"></a><span class="al">![](assets/placeholder.svg)</span></span>
+<span id="cb2-53"><a href="#cb2-53"></a></span>
+<span id="cb2-54"><a href="#cb2-54"></a><span class="al">![](assets/placeholder.svg)</span></span>
+<span id="cb2-55"><a href="#cb2-55"></a></span>
+<span id="cb2-56"><a href="#cb2-56"></a><span class="al">![](assets/placeholder.svg)</span></span>
+<span id="cb2-57"><a href="#cb2-57"></a></span>
+<span id="cb2-58"><a href="#cb2-58"></a><span class="al">![](assets/placeholder.svg)</span></span>
+<span id="cb2-59"><a href="#cb2-59"></a></span>
+<span id="cb2-60"><a href="#cb2-60"></a><span class="al">![](assets/placeholder.svg)</span></span>
+<span id="cb2-61"><a href="#cb2-61"></a></span>
+<span id="cb2-62"><a href="#cb2-62"></a><span class="al">![](assets/placeholder.svg)</span></span>
+<span id="cb2-63"><a href="#cb2-63"></a></span>
+<span id="cb2-64"><a href="#cb2-64"></a><span class="al">![](assets/placeholder.svg)</span></span>
+<span id="cb2-65"><a href="#cb2-65"></a></span>
+<span id="cb2-66"><a href="#cb2-66"></a><span class="al">![](assets/placeholder.svg)</span></span>
+<span id="cb2-67"><a href="#cb2-67"></a></span>
+<span id="cb2-68"><a href="#cb2-68"></a><span class="al">![](assets/placeholder.svg)</span></span>
+<span id="cb2-69"><a href="#cb2-69"></a></span>
+<span id="cb2-70"><a href="#cb2-70"></a>:::</span>
+<span id="cb2-71"><a href="#cb2-71"></a></span>
+<span id="cb2-72"><a href="#cb2-72"></a><span class="fu">## Computations</span></span>
+<span id="cb2-73"><a href="#cb2-73"></a></span>
+<span id="cb2-74"><a href="#cb2-74"></a>Here's how to change the blog layout into two columns. I also used this space to showcase some computations in Quarto.</span>
+<span id="cb2-75"><a href="#cb2-75"></a></span>
+<span id="cb2-76"><a href="#cb2-76"></a>::: {.flex-container style="width: 100%; justify-content: space-between; align-items: flex-start;"}</span>
+<span id="cb2-77"><a href="#cb2-77"></a></span>
+<span id="cb2-78"><a href="#cb2-78"></a>::: {.column style="width: 30%;"}</span>
+<span id="cb2-79"><a href="#cb2-79"></a></span>
+<span id="cb2-82"><a href="#cb2-82"></a><span class="in">```{python}</span></span>
+<span id="cb2-83"><a href="#cb2-83"></a><span class="co">#| label: fig-polar</span></span>
+<span id="cb2-84"><a href="#cb2-84"></a><span class="co">#| fig-cap: "A line plot on a polar axis"</span></span>
+<span id="cb2-85"><a href="#cb2-85"></a></span>
+<span id="cb2-86"><a href="#cb2-86"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb2-87"><a href="#cb2-87"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb2-88"><a href="#cb2-88"></a></span>
+<span id="cb2-89"><a href="#cb2-89"></a>r <span class="op">=</span> np.arange(<span class="dv">0</span>, <span class="dv">2</span>, <span class="fl">0.01</span>)</span>
+<span id="cb2-90"><a href="#cb2-90"></a>theta <span class="op">=</span> <span class="dv">2</span> <span class="op">*</span> np.pi <span class="op">*</span> r</span>
+<span id="cb2-91"><a href="#cb2-91"></a>fig, ax <span class="op">=</span> plt.subplots(subplot_kw<span class="op">=</span>{<span class="st">'projection'</span>: <span class="st">'polar'</span>})</span>
+<span id="cb2-92"><a href="#cb2-92"></a>ax.plot(theta, r)</span>
+<span id="cb2-93"><a href="#cb2-93"></a>ax.set_rticks([<span class="fl">0.5</span>, <span class="dv">1</span>, <span class="fl">1.5</span>, <span class="dv">2</span>])</span>
+<span id="cb2-94"><a href="#cb2-94"></a>ax.grid(<span class="va">True</span>)</span>
+<span id="cb2-95"><a href="#cb2-95"></a>plt.show()</span>
+<span id="cb2-96"><a href="#cb2-96"></a><span class="in">```</span></span>
+<span id="cb2-97"><a href="#cb2-97"></a></span>
+<span id="cb2-98"><a href="#cb2-98"></a>:::</span>
+<span id="cb2-99"><a href="#cb2-99"></a></span>
+<span id="cb2-100"><a href="#cb2-100"></a>::: {.column style="width: 70%"}</span>
+<span id="cb2-101"><a href="#cb2-101"></a></span>
+<span id="cb2-102"><a href="#cb2-102"></a><span class="fu">## `Python (matplotlib.pyplot)` {style="text-align:center;"}</span></span>
+<span id="cb2-103"><a href="#cb2-103"></a></span>
+<span id="cb2-104"><a href="#cb2-104"></a>::: {style="text-align:left;"}</span>
+<span id="cb2-105"><a href="#cb2-105"></a><span class="in">```python</span></span>
+<span id="cb2-106"><a href="#cb2-106"></a><span class="co">#| label: fig-polar</span></span>
+<span id="cb2-107"><a href="#cb2-107"></a><span class="co">#| fig-cap: "A line plot on a polar axis"</span></span>
+<span id="cb2-108"><a href="#cb2-108"></a></span>
+<span id="cb2-109"><a href="#cb2-109"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb2-110"><a href="#cb2-110"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb2-111"><a href="#cb2-111"></a></span>
+<span id="cb2-112"><a href="#cb2-112"></a>r <span class="op">=</span> np.arange(<span class="dv">0</span>, <span class="dv">2</span>, <span class="fl">0.01</span>)</span>
+<span id="cb2-113"><a href="#cb2-113"></a>theta <span class="op">=</span> <span class="dv">2</span> <span class="op">*</span> np.pi <span class="op">*</span> r</span>
+<span id="cb2-114"><a href="#cb2-114"></a>fig, ax <span class="op">=</span> plt.subplots(subplot_kw<span class="op">=</span>{<span class="st">'projection'</span>: <span class="st">'polar'</span>})</span>
+<span id="cb2-115"><a href="#cb2-115"></a>ax.plot(theta, r)</span>
+<span id="cb2-116"><a href="#cb2-116"></a>ax.set_rticks([<span class="fl">0.5</span>, <span class="dv">1</span>, <span class="fl">1.5</span>, <span class="dv">2</span>])</span>
+<span id="cb2-117"><a href="#cb2-117"></a>ax.grid(<span class="va">True</span>)</span>
+<span id="cb2-118"><a href="#cb2-118"></a>plt.show()</span>
+<span id="cb2-119"><a href="#cb2-119"></a><span class="in">```</span></span>
+<span id="cb2-120"><a href="#cb2-120"></a>:::</span>
+<span id="cb2-121"><a href="#cb2-121"></a>:::</span>
+<span id="cb2-122"><a href="#cb2-122"></a></span>
+<span id="cb2-123"><a href="#cb2-123"></a>:::</span>
+<span id="cb2-124"><a href="#cb2-124"></a></span>
+<span id="cb2-125"><a href="#cb2-125"></a></span>
+<span id="cb2-126"><a href="#cb2-126"></a>---</span>
+</code><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></pre></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
 <footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/ishanpragada/portfolio_website/blob/main/posts/initial-commit/index.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/ishanpragada/portfolio_website/edit/main/posts/initial-commit/index.qmd" class="toc-action"><i class="bi empty"></i>Edit this page</a></li><li><a href="https://github.com/ishanpragada/portfolio_website/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer><script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});

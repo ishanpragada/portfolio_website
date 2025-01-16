@@ -33,19 +33,9 @@ author:
   affiliation: "[UIUC](https://illinois.edu)"
   affiliation-url: "https://illinois.edu"
 citation: true
-# citation:
-#   author: Sam Foreman
-#   type: webpage
-#   url: https://samforeman.me
 execute:
-  # keep-ipynb: true
-  # keep-md: true
   freeze: auto
 google-scholar: true
 metadata-files:
   - quarto/_website.yml
   - quarto/_format.yml
-  # - posts/_metadata.yml
-  # - posts/_metadata.yml
-  # - talks/_metadata.yml
-  # - _reveal.yml

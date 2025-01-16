@@ -10,10 +10,11 @@ citation: false
 open-graph:
   title: "Initial Commit"
   description: "my first blog where i try to figure everything out without freaking out 🤪"
-  image: ""
+  image: "assets/thumbnail.png"
 categories:
   - reference
   - coding
+echo: false
 comments:
   giscus: 
     repo: ishanpragada/portfolio_website
@@ -66,9 +67,59 @@ Quarto layouts are easily customizable, especially with figures:
 
 ![](assets/placeholder.svg)
 
+:::
 
+## Computations
+
+Here's how to change the blog layout into two columns. I also used this space to showcase some computations in Quarto.
+
+::: {.flex-container style="width: 100%; justify-content: space-between; align-items: flex-start;"}
+
+::: {.column style="width: 30%;"}
+
+```{python}
+#| label: fig-polar
+#| fig-cap: "A line plot on a polar axis"
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+r = np.arange(0, 2, 0.01)
+theta = 2 * np.pi * r
+fig, ax = plt.subplots(subplot_kw={'projection': 'polar'})
+ax.plot(theta, r)
+ax.set_rticks([0.5, 1, 1.5, 2])
+ax.grid(True)
+plt.show()
+```
 
 :::
+
+::: {.column style="width: 70%"}
+
+## `Python (matplotlib.pyplot)` {style="text-align:center;"}
+
+::: {style="text-align:left;"}
+```python
+#| label: fig-polar
+#| fig-cap: "A line plot on a polar axis"
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+r = np.arange(0, 2, 0.01)
+theta = 2 * np.pi * r
+fig, ax = plt.subplots(subplot_kw={'projection': 'polar'})
+ax.plot(theta, r)
+ax.set_rticks([0.5, 1, 1.5, 2])
+ax.grid(True)
+plt.show()
+```
+:::
+:::
+
+:::
+
 
 ---
 

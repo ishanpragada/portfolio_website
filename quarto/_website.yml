@@ -19,48 +19,11 @@ website:
     title: "Ishan Shankar"
     description: "My portfolio"
     image: ""
-  # twitter-card:
-  #   site: "@saforem2"
-  #   creator: "@saforem2"
-  #   title: "Sam Foreman"
-  #   description: "My ramblings about science and computers"
-  #   image: "https://github.com/saforem2/personal_site/blob/main/assets/thumbnail.png?raw=true"
   navbar:
-    # title: false
-    # logo: https://raw.githubusercontent.com/saforem2/personal_site/0179d7dc43b89e5343b81f76b7708c09794f0315/assets/favicon.svg
-    # logo: assets/signature_plain.svg
-    # logo: assets/favicon.svg
-    # logo-alt: "Ishan Shankar"
     title: "ishankr"
     background: "rgba(34, 34, 34, 0.95)"
     foregound: "#838383"
-    # tools:
-    #   # - icon: twitter
-    #   #   href: https://twitter.com/saforem2
-    #   - icon: gear
-    #     menu:
-    #       - text: Source Code
-    #         url: https://github.com/saforem2/personal_site/blob/main/index.qmd
-    #       - text: New Issue
-    #         url: https://github.com/saforem2/personal_site/issues/new/choose
     left:
-      # - id: posts
-      #   # section: "🪧 Posts"
-      #   text: "<code>posts</code>"
-      #   # collapse: true
-      #   # sort: "date desc"
-      #   menu:
-      #     "posts/**/index.qmd"
-      #
-      # - id: posts-1
-      #   text: "🪧 <code>posts</code>"
-      #   # section: "🪧 Posts"
-      #   # section: "<code>posts</code>"
-      #   # collapse: true
-      #   sort: "date desc"
-      #   menu:
-      #     - contents: "posts/**/index.qmd"
-
       - id: posts
         text: "[{{< iconify line-md pencil >}}]{.red-text style='font-size: 1.0em;'} posts"
         menu:
@@ -80,46 +43,11 @@ website:
           - text: "🎵 `ragaID`"
             url: https://github.com/ishanpragada/ragaID
 
-
-      # - href: https://github.com/saforem2/personal_site
-      #   text: "[{{< iconify line-md github-loop >}}]{style='font-size: 1.15em;'}"
-      #   # logo: github
-      #   aria-label: GitHub
-      #   menu:
-      #     - text: Source Code
-      #       url: https://github.com/saforem2/personal_site/blob/main/index.qmd
-      #     - text: New Issue
-      #       url: https://github.com/saforem2/personal_site/issues/new/choose
-
-      # - text: "➕ More"
-      #   menu:
-    #     menu:
-    #       - text: Source Code
-    #         url: https://github.com/saforem2/personal_site/blob/main/index.qmd
-    #       - text: New Issue
-    #         url: https://github.com/saforem2/personal_site/issues/new/choose
-
     right:
-      # - href: https://twitter.com/saforem2
-      #   text: "[{{< iconify line-md twitter >}}]{style='font-size: 1.15em;'}"
-      #   aria-label: Twitter
-      # text: "[{{< iconify line-md github-loop >}}]{style='font-size: 1.15em;'}"
       - href: https://github.com/ishanpragada/portfolio_website
         text: "[{{< iconify line-md github-loop >}}]{.icon .dim-text style='font-size: 1.25rem;'}"
         aria-label: GitHub
-        # icon: github
-        # menu:
-        #   - text: Source Code
-        #     url: https://github.com/saforem2/personal_site/blob/main/index.qmd
-        #   - text: New Issue
-        #     url: https://github.com/saforem2/personal_site/issues/new/choose
       - href: index.xml
         aria-label: RSS
         text: "[{{< iconify line-md rss >}}]{.icon .dim-text style='font-size: 1.25rem;'}"
-        # text: "[{{< iconify line-md rss >}}]{style='font-size: 1.15em;'}"
-        # icon: rss
-      # - href: "docs/sitemap.xml"
-      #   text: "[{{< iconify line-md rss >}}]{style='font-size: 1.15em;'}"
-      #   aria-label: RSS
-
   sidebar: false
