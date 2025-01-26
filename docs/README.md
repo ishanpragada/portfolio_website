@@ -1,5 +1,5 @@
 Ishan Buyyanapragada
-2025-01-16
+2025-01-26
 
 <div style="font-size:1.0em; text-align: center;">
 
@@ -49,7 +49,7 @@ style="width: 100%; justify-content: space-between; align-items: flex-start;">
 
 > [!TIP]
 >
-> ### 🔧 <span class="dim-text" style="font-size:1.0em!important;">Recent Work</span>
+> ### 🔧 <span class="dim-text" style="font-size:1.0em!important;">recent work</span>
 >
 > <span class="dim-text" style="font-size:1em;">working on adding
 > comments to my blog posts…</span>
@@ -57,9 +57,13 @@ style="width: 100%; justify-content: space-between; align-items: flex-start;">
 > [!TIP]
 >
 > ### <span style="color:#1CD760;"><img src="./assets/spotify-green.svg" class="inline-icon"
-> style="height:1.25rem;vertical-align:text-bottom;" /> Now Playing</span>
+> style="height:1.25rem;vertical-align:text-bottom;" /> now playing</span>
+>
+> <div style="background-color:#1c1c1c!important;">
 >
 > [![][8]][9]
+>
+> </div>
 
 </div>
 
@@ -67,7 +71,7 @@ style="width: 100%; justify-content: space-between; align-items: flex-start;">
 
 > [!TIP]
 >
-> ### <span class="dim-text">📷 Gallery</span>
+> ### <span class="dim-text">📷 gallery</span>
 >
 > <div class="gallery">
 >
@@ -177,28 +181,28 @@ style="width: 100%; justify-content: space-between; align-items: flex-start;">
 
 ### 🪖 experience
 
-#### 👔 Employment
+#### 👔 employment
 
 <div id="tbl-experience">
 
-Table 1: 💻 Work
+Table 1: 💻 work
 
-| Position                    |              @               | Start | End  |
+| position                    |              @               | start | end  |
 |:----------------------------|:----------------------------:|:-----:|:----:|
-| Software Engineering Intern |        [ANB Systems]         | 2024  |  –   |
-| Software Developer          | [Disruption Lab][disruptive] | 2024  |  –   |
-| Research Intern             |            [ALCF]            | 2023  | 2024 |
-| CELS Research Assistant     |            [ANL]             | 2021  | 2023 |
+| software engineering intern |        [ANB Systems]         | 2024  |  –   |
+| software developer          | [Disruption Lab][disruptive] | 2024  |  –   |
+| research intern             |            [ALCF]            | 2023  | 2024 |
+| CELS research assistant     |            [ANL]             | 2021  | 2023 |
 
 </div>
 
-#### 🍎 School
+#### 🍎 school
 
 <div id="tbl-education">
 
-Table 2: 🎓 Education
+Table 2: 🎓 education
 
-| Degree |         In         |     @      | End  |
+| degree |         in         |     @      | end  |
 |:-------|:------------------:|:----------:|:----:|
 | B.Sc   | [Computer Science] | [UIUC][28] | 2027 |
 
@@ -220,7 +224,7 @@ Table 2: 🎓 Education
   [7]: https://calendly.com/ishanpragada/30min
   [disruptive]: https://giesbusiness.illinois.edu/disruption-lab
   [health infodemics]: https://ischool.illinois.edu/news-events/news/2023/04/virtual-center-addresses-health-infodemics
-  [8]: https://spotify-github-profile.kittinanx.com/api/view?uid=ishanpragada&cover_image=true&theme=novatorem&show_offline=false&background_color=000000&interchange=false&bar_color=53b14f&bar_color_cover=true.png
+  [8]: https://spotify-github-profile.kittinanx.com/api/view?uid=ishanpragada&cover_image=true&theme=natemoo-re&show_offline=false&background_color=000000&interchange=true&bar_color=53b14f&bar_color_cover=true.png
   [9]: https://spotify-github-profile.kittinanx.com/api/view?uid=ishanpragada&redirect=true
   [10]: assets/beach.JPG
   [11]: assets/suit.png

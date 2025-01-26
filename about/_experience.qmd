@@ -1,27 +1,27 @@
 
-#### 👔 Employment {style="text-align:center;"}
+#### 👔 employment {style="text-align:center;"}
 
 ::: {#tbl-experience}
-| Position                                                                           |               @                                                    | Start | End  |
+| position                                                                           |               @                                                    | start | end  |
 |:---------------------------------------------------------------------------------- |:------------------------------------------------------------------:|:-----:|:----:|
-| Software Engineering Intern                                                        | [ANB Systems](https://www.anbsystems.com/)                         |  2024 |  --  |
-| Software Developer                                                                 | [Disruption Lab](https://giesbusiness.illinois.edu/disruption-lab) |  2024 |  --  |
-| Research Intern                                                                    |                              [ALCF](https://alcf.anl.gov)          |  2023 | 2024 |
-| CELS Research Assistant                                                            |  [ANL](https://www.anl.gov/)                                       |  2021 | 2023 |
+| software engineering intern                                                        | [ANB Systems](https://www.anbsystems.com/)                         |  2024 |  --  |
+| software developer                                                                 | [Disruption Lab](https://giesbusiness.illinois.edu/disruption-lab) |  2024 |  --  |
+| research intern                                                                    |                              [ALCF](https://alcf.anl.gov)          |  2023 | 2024 |
+| CELS research assistant                                                            |  [ANL](https://www.anl.gov/)                                       |  2021 | 2023 |
 
-:  💻 Work {.responsive .striped .hover}
+:  💻 work {.responsive .striped .hover}
 :::
 
-#### 🍎 School {style="text-align:center;"}
+#### 🍎 school {style="text-align:center;"}
 
 ::: {#tbl-education}
 
-|            Degree                     |                               In                                                             |               @                    | End  |
+|            degree                     |                               in                                                             |               @                    | end  |
 |:------------------------------------- |:--------------------------------------------------------------------------------------------:|:----------------------------------:|:----:|
 | B.Sc                                  |  [Computer Science](https://grainger.illinois.edu/academics/undergraduate/majors-and-minors/computer-science)  |      [UIUC](https://illinois.edu/) | 2027 |
 
 
-: 🎓 Education {.responsive .striped .hover}
+: 🎓 education {.responsive .striped .hover}
 :::
 
 

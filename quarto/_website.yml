@@ -27,12 +27,12 @@ website:
       - id: posts
         text: "[{{< iconify line-md pencil >}}]{.red-text style='font-size: 1.0em;'} posts"
         menu:
-          - text: "📬 All Posts"
+          - text: "📬 all posts"
             href: "./posts/index.qmd"
       - id: projects
         text: "[{{< iconify line-md computer >}}]{.blue-text style='font-size:1.0em;'} projects"
         menu:
-          - text: "📚 All Projects"
+          - text: "📚 all projects"
             url: "./qmd/projects/index.qmd"
           - text: "📈 `dlp_model`"
             url: https://github.com/ishanpragada/dlp_model

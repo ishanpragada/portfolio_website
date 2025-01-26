@@ -1,26 +1,26 @@
 ---
-title: "📬 Posts"
+title: "📬 posts"
+citation: false
 editor:
    render-on-save: true
 listing:
   table-striped: true
   id: listing-posts
   sort: "date desc"
-  filter-ui: true
-  sort-ui: true
+  sort-ui: false
+  filter-ui: false
   type: table
   table-hover: true
-  fields: [title, date, categories]
-  categories: true
+  fields: [title, date]
   date-format: iso
   field-display-names:
-      date: "<b>When</b>"
-      title: "<b>What</b>"
+      date: "<b>when</b>"
+      title: "<b>what</b>"
   contents:
-    - "../posts/initial-commit/index.qmd"
+    - "../posts/is-this-thing-on/index.qmd"
 ---
 
-## 🔥 Hot off the Press 📰
+## musings of a genius
 
 :::: {.feature}
 

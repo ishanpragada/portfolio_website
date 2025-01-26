@@ -24,6 +24,7 @@ format:
 format-links: false
 ---
 
+
 ::: {style="font-size:1.0em; text-align: center;"}
 
 [[![](./assets/avatar.jpg)]{.profile-avatar style="width: 100%; border: 0px solid var(--bg-border)!important;"}](https://ishan-web-chatbot.vercel.app/)
@@ -49,7 +50,7 @@ format-links: false
 
 {{< include about/_about.qmd >}}
 
-::: {.callout-tip icon=false aria-title="Gallery" title='[📷 Gallery]{.dim-text}' collapse="true" style="width:100%; background-color:rgba(131,131,131,0.05)!important; border: 1px solid rgba(131,131,131,0.0); opacity:100%;"}
+::: {.callout-tip icon=false aria-title="gallery" title='[📷 gallery]{.dim-text}' collapse="true" style="width:100%; background-color:rgba(131,131,131,0.05)!important; border: 1px solid rgba(131,131,131,0.0); opacity:100%;"}
 
 ::: {.gallery} 
 
