@@ -59,7 +59,7 @@ style="width: 100%; justify-content: space-between; align-items: flex-start;">
 > ### <span style="color:#1CD760;"><img src="./assets/spotify-green.svg" class="inline-icon"
 > style="height:1.25rem;vertical-align:text-bottom;" /> now playing</span>
 >
-> <div style="background-color:#1c1c1c!important;">
+> <div style="background-color:var(--music-color)!important;">
 >
 > [![][8]][9]
 >
@@ -175,6 +175,8 @@ style="width: 100%; justify-content: space-between; align-items: flex-start;">
 >
 > [![][26]][27]
 >
+> [![][28]][29]
+>
 > </div>
 
 </div>
@@ -204,7 +206,7 @@ Table 2: 🎓 education
 
 | degree |         in         |     @      | end  |
 |:-------|:------------------:|:----------:|:----:|
-| B.Sc   | [Computer Science] | [UIUC][28] | 2027 |
+| B.Sc   | [Computer Science] | [UIUC][30] | 2027 |
 
 </div>
 
@@ -245,8 +247,10 @@ Table 2: 🎓 education
   [25]: https://github.com/ishanpragada/alexa_gpt
   [26]: https://github-readme-stats.vercel.app/api/pin/?username=ishanpragada&repo=ragaID&theme=transparent&include_all_commits=true&hide_border=true&line_height=5&card_width=300px&text_color=838383&title_color=838383.png
   [27]: https://github.com/ishanpragada/ragaID
+  [28]: https://github-readme-stats.vercel.app/api/pin/?username=ishanpragada&repo=portfolio_website&theme=transparent&include_all_commits=true&hide_border=true&line_height=5&card_width=300px&text_color=838383&title_color=838383.png
+  [29]: https://github.com/ishanpragada/portfolio_website
   [ANB Systems]: https://www.anbsystems.com/
   [ALCF]: https://alcf.anl.gov
   [ANL]: https://www.anl.gov/
   [Computer Science]: https://grainger.illinois.edu/academics/undergraduate/majors-and-minors/computer-science
-  [28]: https://illinois.edu/
+  [30]: https://illinois.edu/

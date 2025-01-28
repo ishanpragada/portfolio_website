@@ -1,6 +1,7 @@
 ---
 title: "📬 posts"
 citation: false
+toc: false
 editor:
    render-on-save: true
 listing:

@@ -16,7 +16,7 @@
 :::
 
 ::: {.callout-tip icon=false aria-title="now playing" title='[![](/assets/spotify-green.svg){.inline-icon style="height:1.25rem;vertical-align:text-bottom;"} now playing]{style="color:#1CD760;"}' collapse="true" style='background-color: oklch(from #1CD760 calc(l * 1.15) c h / 0.11)!important; opacity: 100% width: -webkit-fill-available!important;margin-top: 0.5rem;'}
-::: {style='background-color:#1c1c1c!important;'}
+::: {style='background-color:var(--music-color)!important;'}
 [![](https://spotify-github-profile.kittinanx.com/api/view?uid=ishanpragada&cover_image=true&theme=natemoo-re&show_offline=false&background_color=000000&interchange=true&bar_color=53b14f&bar_color_cover=true)](https://spotify-github-profile.kittinanx.com/api/view?uid=ishanpragada&redirect=true)
 :::
 :::

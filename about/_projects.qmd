@@ -12,6 +12,8 @@
 [![](https://github-readme-stats.vercel.app/api/pin/?username=ishanpragada&repo=alexa_gpt&theme=transparent&include_all_commits=true&hide_border=true&line_height=5&card_width=300px&text_color=838383&title_color=838383)](https://github.com/ishanpragada/alexa_gpt)
 
 [![](https://github-readme-stats.vercel.app/api/pin/?username=ishanpragada&repo=ragaID&theme=transparent&include_all_commits=true&hide_border=true&line_height=5&card_width=300px&text_color=838383&title_color=838383)](https://github.com/ishanpragada/ragaID)
+
+[![](https://github-readme-stats.vercel.app/api/pin/?username=ishanpragada&repo=portfolio_website&theme=transparent&include_all_commits=true&hide_border=true&line_height=5&card_width=300px&text_color=838383&title_color=838383)](https://github.com/ishanpragada/portfolio_website)
 :::
 
 :::
