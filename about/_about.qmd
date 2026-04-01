@@ -2,9 +2,9 @@
 
 ::: {.column}
 
-- computer science student @ [UIUC](https://illinois.edu)
+- incoming sde intern @ [AWS](https://aws.amazon.com/) · cs @ [UIUC](https://illinois.edu)
 - currently interested in:
-    - building sustainable solutions to everyday problems using [disruptive](https://giesbusiness.illinois.edu/disruption-lab) technologies.
+    - systems programming, performance engineering, and low-latency execution on Linux.
     - identifying and addressing [health infodemics](https://ischool.illinois.edu/news-events/news/2023/04/virtual-center-addresses-health-infodemics).
 
 :::
