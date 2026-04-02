@@ -13,23 +13,13 @@
 :  💻 work {.responsive .striped .hover}
 :::
 
-#### 🏆 leadership {style="text-align:center;"}
-
-::: {#tbl-leadership}
-| position                                                                           |               @                                                    | start | end  |
-|:---------------------------------------------------------------------------------- |:------------------------------------------------------------------:|:-----:|:----:|
-| engineering manager                                                                | [Disruption Lab](https://giesbusiness.illinois.edu/disruption-lab) |  2024 |  --  |
-
-:  👥 leadership {.responsive .striped .hover}
-:::
-
 #### 🍎 school {style="text-align:center;"}
 
 ::: {#tbl-education}
 
 |            degree                     |                               in                                                             |               @                    | end  |
 |:------------------------------------- |:--------------------------------------------------------------------------------------------:|:----------------------------------:|:----:|
-| B.Sc (GPA 3.98, James Scholar)        |  [Computer Science](https://grainger.illinois.edu/academics/undergraduate/majors-and-minors/computer-science)  |      [UIUC](https://illinois.edu/) | 2028 |
+| B.Sc (James Scholar)                   |  [Computer Science](https://grainger.illinois.edu/academics/undergraduate/majors-and-minors/computer-science)  |      [UIUC](https://illinois.edu/) | 2028 |
 
 
 : 🎓 education {.responsive .striped .hover}
