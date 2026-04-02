@@ -5,7 +5,7 @@
 | position                                                                           |               @                                                    | start | end  |
 |:---------------------------------------------------------------------------------- |:------------------------------------------------------------------:|:-----:|:----:|
 | software development engineering intern                                            | [Amazon Web Services](https://aws.amazon.com/)                     |  2026 |  --  |
-| systems operations engineer                                                        | Tandemn                                                            |  2025 |  --  |
+| systems operations engineer                                                        | [Tandemn](https://www.tandemn.com/)                                |  2025 |  --  |
 | SPIN intern                                                                        | [NCSA](https://ncsa.illinois.edu/)                                 |  2025 | 2025 |
 | software engineering intern                                                        | [ANB Systems](https://www.anbsystems.com/)                         |  2024 | 2024 |
 | CELS research intern                                                               | [ANL](https://www.anl.gov/)                                        |  2022 | 2024 |
