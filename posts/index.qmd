@@ -19,6 +19,7 @@ listing:
       title: "<b>what</b>"
   contents:
     - "../posts/is-this-thing-on/index.qmd"
+    - "../posts/on-ai/index.qmd"
 ---
 
 ## musings of a genius
