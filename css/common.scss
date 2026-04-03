@@ -2089,13 +2089,14 @@ dd {
 .reveal .flex-container {
   /* We first create a flex layout context */
   display: flex;
-  /* Then we define the flow direction 
-     and if we allow the items to wrap 
+  /* Then we define the flow direction
+     and if we allow the items to wrap
    * Remember this is the same as:
    * flex-direction: row;
    * flex-wrap: wrap;
    */
   flex-flow: row;
+  gap: 1.5rem;
 
   /* Then we define how is distributed the remaining space */
   // justify-content: space-between;

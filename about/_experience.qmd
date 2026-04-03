@@ -4,10 +4,11 @@
 ::: {#tbl-experience}
 | position                                                                           |               @                                                    | start | end  |
 |:---------------------------------------------------------------------------------- |:------------------------------------------------------------------:|:-----:|:----:|
-| software engineering intern                                                        | [ANB Systems](https://www.anbsystems.com/)                         |  2024 |  --  |
-| software developer                                                                 | [Disruption Lab](https://giesbusiness.illinois.edu/disruption-lab) |  2024 |  --  |
-| research intern                                                                    |                              [ALCF](https://alcf.anl.gov)          |  2023 | 2024 |
-| CELS research assistant                                                            |  [ANL](https://www.anl.gov/)                                       |  2021 | 2023 |
+| software development engineering intern                                            | [Amazon Web Services](https://aws.amazon.com/)                     |  2026 |  --  |
+| systems operations engineer                                                        | [Tandemn](https://www.tandemn.com/)                                |  2025 |  --  |
+| SPIN intern                                                                        | [NCSA](https://ncsa.illinois.edu/)                                 |  2025 | 2025 |
+| software engineering intern                                                        | [ANB Systems](https://www.anbsystems.com/)                         |  2024 | 2024 |
+| CELS research intern                                                               | [ANL](https://www.anl.gov/)                                        |  2022 | 2024 |
 
 :  💻 work {.responsive .striped .hover}
 :::
@@ -18,7 +19,7 @@
 
 |            degree                     |                               in                                                             |               @                    | end  |
 |:------------------------------------- |:--------------------------------------------------------------------------------------------:|:----------------------------------:|:----:|
-| B.Sc                                  |  [Computer Science](https://grainger.illinois.edu/academics/undergraduate/majors-and-minors/computer-science)  |      [UIUC](https://illinois.edu/) | 2027 |
+| B.Sc (James Scholar)                   |  [Computer Science](https://grainger.illinois.edu/academics/undergraduate/majors-and-minors/computer-science)  |      [UIUC](https://illinois.edu/) | 2028 |
 
 
 : 🎓 education {.responsive .striped .hover}
