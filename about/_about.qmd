@@ -2,7 +2,7 @@
 
 ::: {.column}
 
-- incoming sde intern @ [AWS](https://aws.amazon.com/) · cs @ [UIUC](https://illinois.edu)
+- oss @ [nvidia](https://www.nvidia.com/) · cs @ [UIUC](https://illinois.edu)
 - currently interested in:
     - systems programming, performance engineering, and low-latency execution on Linux.
     - identifying and addressing [health infodemics](https://ischool.illinois.edu/news-events/news/2023/04/virtual-center-addresses-health-infodemics).
