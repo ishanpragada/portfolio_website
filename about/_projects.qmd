@@ -1,17 +1,17 @@
 
 ::: {.callout-tip icon=false aria-title="GitHub Repos" title='[📂 [`ishanpragada/`](https://github.com/ishanpragada?tab=repositories)]{.dim-text-11}' collapse="false" style="text-align: left!important; width:100%; background-color:rgba(131,131,131,0.05)!important; border: 1px solid rgba(131,131,131,0.3)!important; opacity:100%;"}
 
-::: {.flex-container style="flex-flow: wrap;"}
+::: {.flex-container style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;"}
 
-[![](https://gh-card.dev/repos/ishanpragada/dlp_model.svg)](https://github.com/ishanpragada/dlp_model)
+[![](https://gh-card.dev/repos/ishanpragada/dlp_model.svg?theme=dark)](https://github.com/ishanpragada/dlp_model)
 
-[![](https://gh-card.dev/repos/ishanpragada/asr_system.svg)](https://github.com/ishanpragada/asr_system)
+[![](https://gh-card.dev/repos/ishanpragada/asr_system.svg?theme=dark)](https://github.com/ishanpragada/asr_system)
 
-[![](https://gh-card.dev/repos/ishanpragada/alexa_gpt.svg)](https://github.com/ishanpragada/alexa_gpt)
+[![](https://gh-card.dev/repos/ishanpragada/alexa_gpt.svg?theme=dark)](https://github.com/ishanpragada/alexa_gpt)
 
-[![](https://gh-card.dev/repos/ishanpragada/ragaID.svg)](https://github.com/ishanpragada/ragaID)
+[![](https://gh-card.dev/repos/ishanpragada/ragaID.svg?theme=dark)](https://github.com/ishanpragada/ragaID)
 
-[![](https://gh-card.dev/repos/ishanpragada/portfolio_website.svg)](https://github.com/ishanpragada/portfolio_website)
+[![](https://gh-card.dev/repos/ishanpragada/portfolio_website.svg?theme=dark)](https://github.com/ishanpragada/portfolio_website)
 :::
 
 :::
